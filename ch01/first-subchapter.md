@@ -1,18 +1,19 @@
 # Basic PLC Programming
-# A title
- Basic PLC Programming
-## A subtitle
-  Introduction to PLCs
-## Next subtitle
-   i. How PLCs work
-    ii. Analog and Digital Signals
-   iii. Software for PLC Programming
-     iV. PLC networks and Interfacing 
-## Another Subtitle
+#  Introduction
+
+## Objectives of the course
+
+## Learning Outcomes
+ 
+## Course Outline
      i. How PLCs work
     ii. Analog and Digital Signals
    iii. Software for PLC Programming
      iV. PLC networks and Interfacing 
+     v. How PLCs work
+   vi. Analog and Digital Signals
+   vii. Software for PLC Programming
+     viii. PLC networks and Interfacing 
 # Next title
   Basic Logic Programming
 ## A subtitle
