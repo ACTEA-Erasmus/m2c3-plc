@@ -4,7 +4,10 @@
 ## A subtitle
   Introduction to PLCs
 ## Next subtitle
- 
+   i. How PLCs work
+    ii. Analog and Digital Signals
+   iii. Software for PLC Programming
+     iV. PLC networks and Interfacing 
 ## Another Subtitle
      i. How PLCs work
     ii. Analog and Digital Signals
