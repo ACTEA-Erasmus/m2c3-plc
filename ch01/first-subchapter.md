@@ -1,29 +1,31 @@
 # First subchapter
 # A title
-  Introduction to PLC
+ Basic PLC Programming
 ## A subtitle
-  i. How PLCs work
-  ii. Analog and Digital Signals
-  iii. Software for PLC Programming
-  iV. PLC networks and Interfacing 
+  Introduction to PLCs
 ## Next subtitle
-  Basic Logic Programming
+ 
 ## Another Subtitle
+     i. How PLCs work
+    ii. Analog and Digital Signals
+   iii. Software for PLC Programming
+     iV. PLC networks and Interfacing 
+# Next title
+  Basic Logic Programming
+## A subtitle
     i. Introduction to PLC programming
     ii. Ladder Logic Programming
     iii. Digital Logic gate equivalence
     Iv. Lab Exercise
-# Next title
-  PLC Registers and Memory Addressing
-## A subtitle
+## Next subtitle
+ PLC Registers and Memory Addressing
+## Another Subtitle
     i.  Numbers and Bases
     ii. PLC Registers
     iii. Memory Addressing
     iv. Input/Output
     v.  Programm Input switches  
     vi. Lab Exercise 
-## Next subtitle
-## Another Subtitle
 # Another title
 ## A subtitle
 ## Next subtitle
