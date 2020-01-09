@@ -1,4 +1,4 @@
-# First subchapter
+# Basic PLC Programming
 # A title
  Basic PLC Programming
 ## A subtitle
