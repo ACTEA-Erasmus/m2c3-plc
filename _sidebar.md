@@ -3,6 +3,7 @@
 * Exercise 01: Hardware
   * [Learning goals](Ex01/Subchapter01.md)
   * [Study materials](Ex01/Subchapter02.md)
+  * [Hardware](Ex01/Subchapter03.md)
 * Exercise 02: Basic instructions
   * [Learning goals](Ex02/Subchapter01.md)
   * [Study materials](Ex02/Subchapter02.md)
@@ -25,3 +26,7 @@
   * [Electrical drawings](Ad01/Subchapter01.md)
 * Addendum 02: TAG naming convention
   * [TAG naming convention](Ad02/Subchapter01.md)
+* Addendum 03: PLC programming in Siemens TIA Portal V15.1
+  * [PLC programming in Siemens TIA Portal V15.1](Ad03/Subchapter01.md)
+* Addendum 04: Wire color code
+  * [Wire color code](Ad04/Subchapter01.md)
