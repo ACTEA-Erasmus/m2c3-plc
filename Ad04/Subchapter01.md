@@ -1,8 +1,8 @@
 # Wire color code
- | Color | Function |
- | --- | --- |
- | Red | 24 VDC |
- | Blue | 0 VDC |
- | Black | 400 VAC / 230 VAC |
- | Brown | 400 VAC |
- | Yellow/green | PE |
+ | Color | Function | Comment |
+ | :---: | :---: | :---: |
+ | Red | 24 VDC | Control circuits '+' |
+ | Blue | 0 VDC | Control circuits '-' |
+ | Black | 400 VAC / 230 VAC | Power circuits L1/L2 or L1/N |
+ | Brown | 400 VAC | Power circuits L3 |
+ | Yellow/green | PE | Protective earth |
