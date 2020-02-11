@@ -3,7 +3,7 @@
 ### General
 ### PLC
 #### Power supply
-#### Switch
+#### Ethernet switch
 #### Digital inputs
 #### Digital outputs
 #### Analog inputs
@@ -15,5 +15,5 @@
 #### Lamps
 #### Analog scale
 ### Safety relay
-### Motor protective switches
+### Motor circuit breakers
 ### Motor contactors
