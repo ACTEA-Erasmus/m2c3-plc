@@ -9,7 +9,9 @@ TAG and block names are constructed with capital and small letters where
 ## Programming blocks
 ### Structure
 The name of a programming block is constructed as showed in the next table.
+
 | Block type | _ | S88 Type | Block description |
+| :--- | :--- |:--- |:--- |
 
 It starts with the block type abbreviation, followed by an underscore and it finish with an S88 abbreviation and block description.
 The S88 type abbreviation is not used with global data blocks (DBs)
@@ -53,6 +55,7 @@ The name of a PLC TAG is constructed as showed in the next table.
 
 ### Prefix
 The prefix gives the function of the absolute address.
+
 | Prefix | Description |
 | :--- | :--- |
 | i | Input |
@@ -111,7 +114,7 @@ The use of the type name is only used by flags if there is a connection to a sen
 The function gives information about the function of the TAG. The next table shows different kind of options where it is allowed to combine multiple functions.
 
 | Function| Description | Function| Description |
-| :--- | :--- |
+| :--- | :--- |:--- |:--- |
 | Start | Start | Stop | Stop |
 | Startup | Starting up | Started| Started |
 | Stopped | Stopped | Reset | Reset |

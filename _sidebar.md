@@ -3,7 +3,10 @@
 * Exercise 01: Hardware
   * [Learning goals](Ex01/Subchapter01.md)
   * [Study materials](Ex01/Subchapter02.md)
-  * [Hardware](Ex01/Subchapter03.md)
+  * [Introduction into automated systems](Ex01/Subchapter03.md)
+  * [PLC board introduction](Ex01/Subchapter04.md)
+  * [How to use the PLC board](Ex01/Subchapter05.md)
+  * [Questions](Ex01/Subchapter06.md)
 * Exercise 02: Basic instructions
   * [Learning goals](Ex02/Subchapter01.md)
   * [Study materials](Ex02/Subchapter02.md)
