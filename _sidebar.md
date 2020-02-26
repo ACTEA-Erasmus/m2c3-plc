@@ -43,7 +43,8 @@
   * [Electrical drawings](Ad01/Subchapter01.md)
 * Addendum 02: TAG naming convention
   * [TAG naming convention](Ad02/Subchapter01.md)
-* Addendum 03: PLC programming in Siemens TIA Portal V15.1
+* Addendum 03: Manuals
   * [PLC programming in Siemens TIA Portal V15.1](Ad03/Subchapter01.md)
+  * [Working with RealGames Factory IO](Ad03/Subchapter02.md)
 * Addendum 04: Wire color code
   * [Wire color code](Ad04/Subchapter01.md)
