@@ -39,7 +39,7 @@ So what are the specifications of this differential circuit breaker?
 | Black | 230VAC controlled by main power switch  |
 | Yellow | Protective earth [PE]|
 
->Where is that leak current difference going to? <br>
+>**Where is that leak current difference going to?** <br>
 **Answer:** To the earth and it can go through humans which can cause significant injuries or even dead if no protective device is installed.<br/>
 <img src="/Ex01/Images/Electric_hazard.png" alt="" title="" width="80" /> <br/>
 The differential circuit breaker prevents the existing of leak currents higher than 30 mA.
@@ -132,7 +132,7 @@ The **safety relay**, the safety banana connectors, the **emergency button** and
 | Red | 1x normally open control circuit [41-42] |
 | Yellow | 3x normally open safety circuit [13-14] & [23-24] & [33-34] |
 
->To deactivate an emergency state:
+>**To deactivate an emergency state**
 * Check why the emergency button is pressed and who pressed it
 * Check if it is save to deactivate the emergency state
 * Release the emergency button (turn and pull the button)
@@ -155,7 +155,7 @@ A motor circuit breaker on the board can be switched on by turning the turnkey t
 
 <img src="/Ex01/Images/Motor_circuit_breaker_turn_on.jpg" alt="" title="" width="350" /> <br/>
 
->Working with motor circuit breakers:
+>**Working with motor circuit breakers**
 * Lock a motor circuit breaker with a padlock in case of electrical maintenance
 * If the motor circuit breaker is switched off; check why and by who the circuit breaker is switched off
 * If the motor circuit breaker is tripped; check the normal function of the connected motor
