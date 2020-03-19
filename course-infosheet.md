@@ -1,5 +1,5 @@
 # Course infosheet
-| ![ACTEA_logo](/ACTEA_logo.jpg) | Module 2 Course 3 <br /> **Basic PLC Programming** |
+| ![ACTEA_logo](/ACTEA_logo.jpg) | **Module 2 Course 3** <br /> **Basic PLC Programming** |
 | :----: | :----: |
 
 Study load: 5 credits

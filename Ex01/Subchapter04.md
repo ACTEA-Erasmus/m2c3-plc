@@ -1,4 +1,5 @@
 # PLC board introduction
+_____________________________________
 ## General
 The main goal of this exercise is to discover the installed equipment on the board and how the use the board.
 
@@ -25,7 +26,7 @@ The board is connected by a **230VAC** power chord to the mains and internally c
 * To protect circuits from damage caused by excess current from overload or short circuit (I<sub>n</sub>)
 * To protect humans against electrocution (I<sub>diff</sub>)
 
-<img src="/Ex01/Images/Main_switch_on_board.jpg" alt="" title="" width="180" /> <br/>
+![Main switch](../Ex01/Images/Main_switch_on_board.jpg)
 
 So what are the specifications of this differential circuit breaker?
 * The number **16** in C16 means that a rated current I<sub>n</sub> of 16A or less is allowed
@@ -47,7 +48,7 @@ The differential circuit breaker prevents the existing of leak currents higher t
 ### 24VDC Power supply
 A **24VDC regulated power supply** is used on the board to create the control circuits by converting unregulated 230VAC to constant 24VDC even if there is a fluctuation at the 230VAC.
 
-<img src="/Ex01/Images/24VDC_on_board.jpg" alt="" title="" width="150" /> <br/>
+![Power supply](../Ex01/Images/24VDC_on_board.jpg)
 
 The 24VDC power supply will be activated if the main power supply is switched on. The 24VDC circuit is protected against overload and short circuit with a fuse which is mounted in a black fuse holder.
 
