@@ -85,4 +85,4 @@ It is possible to create a backup of your project by archiving it. An **archive*
 | .AP15_1       | TIA Portal project V15.1 <sup>(1)</sup> |
 | .AL15_1       | TIA Portal library V15.1 <sup>(1)</sup> |
 
-<sup>(1)</sup> *!! Cannot be used as standalone file !!*
+<sup>1</sup> *!! Cannot be used as standalone file !!*
