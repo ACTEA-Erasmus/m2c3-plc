@@ -38,7 +38,7 @@ Scheme to program FC_Sign1 & FC_Sign2:
 | Sign 1        | ![](../Ex02/Images/Sign_gn.jpg) | ![](../Ex02/Images/Sign_yw.jpg) | ![](../Ex02/Images/Sign_rd.jpg) | ![](../Ex02/Images/Sign_rd.jpg) |
 | Sign 2        | ![](../Ex02/Images/Sign_rd.jpg) | ![](../Ex02/Images/Sign_rd.jpg) | ![](../Ex02/Images/Sign_yw.jpg) | ![](../Ex02/Images/Sign_gn.jpg) |
 | **iSelEmergency_S5=ON**  | **Traffic sign** | **Description**                              |               |                  |
-| Sign 1        | ![](../Ex02/Images/Sign_yw_blink.jpg) | Orange light blinks with a frequency of 1 Hz |               |                  |
-| Sign 2        | ![](../Ex02/Images/Sign_yw_blink.jpg) | Orange light blinks with a frequency of 1 Hz |               |                  |
+| Sign 1        | ![](../Ex02/Images/Sign_yw_blink.jpg) | Orange light blinks <br> with a frequency <br> of 1 Hz |               |                  |
+| Sign 2        | ![](../Ex02/Images/Sign_yw_blink.jpg) | Orange light blinks <br> with a frequency <br> of 1 Hz |               |                  |
 
 **Download** the software to the device **and test** the functionality of traffic sign 1 and traffic sign 2.
