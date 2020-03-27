@@ -16,7 +16,6 @@ Back to the [project scope](Ex02/Subchapter04.md).
 >- FC_Sign2 - Traffic lights of Sign 2 in LAD
 
 Use only the next instructions:
-
 | ![](../Ex02/Images/FBD_Pf.jpg) | ![](../Ex02/Images/FBD_Set.jpg) | ![](../Ex02/Images/FBD_Reset.jpg)| ![](../Ex02/Images/FBD_TON.jpg) |
 | :---: | :---: | :---: | :---: |
 
@@ -32,12 +31,12 @@ Scheme to program FC_Normal:
 
 Scheme to program FC_Sign1 & FC_Sign2:
 
-|  | **mFrom1to2**    | **mWarning1to2**                             | **mFrom2to1** | **mWarning2to1** |
+|               | **mFrom1to2**      | **mWarning1to2**                              | **mFrom2to1**   | **mWarning2to1**   |
 | :-----------: | :----------------: | :-------------------------------------------: | :-------------: | :----------------: |
-| **iSelEmergency_S5<br>OFF** | T = 12 s         | T = 3 s                                      | T = 12 s      | T = 3 s          |
+| **iSelEmergency_S5=OFF** | T = 12 s         | T = 3 s                                      | T = 12 s      | T = 3 s          |
 | Sign 1        | ![](../Ex02/Images/sign_gn.jpg) | ![](../Ex02/Images/sign_yw.jpg) | ![](../Ex02/Images/sign_rd.jpg) | ![](../Ex02/Images/sign_rd.jpg) |
 | Sign 2        | ![](../Ex02/Images/sign_rd.jpg) | ![](../Ex02/Images/sign_rd.jpg) | ![](../Ex02/Images/sign_yw.jpg) | ![](../Ex02/Images/sign_gn.jpg) |
-| **iSelEmergency_S5<br>ON**  | **Traffic sign** | **Description**                              |               |                  |
+| **iSelEmergency_S5=ON**  | **Traffic sign** | **Description**                              |               |                  |
 | Sign 1        | ![](../Ex02/Images/sign_yw_blink.jpg) | Orange light blinks with a frequency of 1 Hz |               |                  |
 | Sign 2        | ![](../Ex02/Images/sign_yw_blink.jpg) | Orange light blinks with a frequency of 1 Hz |               |                  |
 
