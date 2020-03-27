@@ -1,7 +1,6 @@
 [![ACTEA_logo](/ACTEA_logo.jpg)](https://www.actea.net/)
-**Module 2 Course 3 - Basic PLC Programming**
-____________________________________________________________
-# Course infosheet
+
+# Basic PLC Programming - Course infosheet
 ____________________________________________________________
 Study load: 5 credits
 Total studytime: 125 hours
