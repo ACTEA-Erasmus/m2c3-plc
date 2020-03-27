@@ -21,7 +21,7 @@ Add the signal board and the signal module with drag-and-drop from the hardware 
 
 ### Download hardware
 
-![Hardware download](../Ex02/Images/TIA_HW_Download.jpg)
+![Hardware download](../Ex02/Images/TIA_HW_download.jpg)
 
 ## PLC software
 Software code can be programmed into 'Program blocks' in 5 programming languages:
@@ -47,7 +47,7 @@ BOOL, BYTE, WORD, DWORD & LWORD
 
 ## Download software
 
-![Sofware download](../Ex02/Images/TIA_SW_Download.jpg)
+![Sofware download](../Ex02/Images/TIA_SW_download.jpg)
 
 ## Debugging
 ### Hardware
@@ -56,7 +56,7 @@ BOOL, BYTE, WORD, DWORD & LWORD
 | ![](../Ex02/Images/Icon_No_error.jpg) | No error          |
 | ![](../Ex02/Images/Icon_Maintenance_needed.jpg)| Maintenance needed |
 | ![](../Ex02/Images/Icon_Maintenance_necessary.jpg) | Maintenance necessary |
-| ![](../Ex02/Images/Icon_error.jpg) | Error, maintenance necessary |
+| ![](../Ex02/Images/Icon_Error.jpg) | Error, maintenance necessary |
 | ![](../Ex02/Images/Icon_device_deactivated.jpg) | The device or module is deactivated |
 | ![](../Ex02/Images/Icon_device_not_reached.jpg) | The device or module cannot be reached |
 | ![](../Ex02/Images/Icon_device_no_iodata.jpg) | No input and/or output data available |
