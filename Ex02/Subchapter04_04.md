@@ -25,7 +25,7 @@ The next table shows the online diagnostic icons.
 There should be a difference between the *online* and *offline* version.
 
 **Solve** the **software difference** by:
->Call the *Function* FC_Normal in the *Organization block* Main [%OB1] and download the software to the device.
+>- Call the *Function* FC_Normal in the *Organization block* Main [%OB1] and download the software to the device.
 
 **Check the functionality** of both warning lamps (orange lamps).
 >-   Use the “*Monitoring on/off*” function in the “*Online view*” of the
