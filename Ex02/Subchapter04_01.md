@@ -17,23 +17,23 @@ Back to the [project scope](Ex02/Subchapter04.md).
 
 ### Add a PLC-device
 CPU settings:
->- *Type* : See available CPU
->- *System byte* : %MB254
->- *Clock memory byte* : %MB255
->- *Digital input start address* : %IB0
->- *Output start address* : %QB0
->- *Analog input start address* : %IB64
->- *IP-address* : 192.168.0.30
->- *IP-address subnet mask* : 255.255.255.0
+>- *Type* : See available CPU <br>
+>- *System byte* : %MB254 <br>
+>- *Clock memory byte* : %MB255 <br>
+>- *Digital input start address* : %IB0 <br>
+>- *Output start address* : %QB0 <br>
+>- *Analog input start address* : %IB64 <br>
+>- *IP-address* : 192.168.0.30 <br>
+>- *IP-address subnet mask* : 255.255.255.0 <br>
 
 Signal board settings:
->- *Type* : SB1231 1x12BIT - 6ES7 232-4HA30-0XB0
->- *Analog output start address* : %QB80
->- *Analog output signal* : Voltage
+>- *Type* : SB1231 1x12BIT - 6ES7 232-4HA30-0XB0 <br>
+>- *Analog output start address* : %QB80 <br>
+>- *Analog output signal* : Voltage <br>
 
 Digital input settings:
->- *Type* : SM1221 DI8x24VDC - 6ES7 221-1BF30-0XB0
->- *Digital input start address* : %IB8
+>- *Type* : SM1221 DI8x24VDC - 6ES7 221-1BF30-0XB0 <br>
+>- *Digital input start address* : %IB8 <br>
 
 ### Add software blocks
 Add next *Functions* (FC) into PLC_1 in the FBD program language:
