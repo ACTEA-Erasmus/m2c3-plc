@@ -36,7 +36,7 @@ FBD, LAD and SFC are graphical based programming languages. This means that inst
 ### Organization blocks [OB]
 
 ### Functions [FC]
-![Add function](../Ex02/Images/TIA_Add_FC.jpg)
+![Add function](../Ex02/Images/TIA_add_FC.jpg)
 
 ### Function Blocks [FB]
 
@@ -53,7 +53,7 @@ BOOL, BYTE, WORD, DWORD & LWORD
 ### Hardware
 | **Icon** | **Description**   |
 |:--------:|:------------------|
-| ![](../Ex02/Images/Icon_no_error.jpg) | No error          |
+| ![](../Ex02/Images/Icon_No_error.jpg) | No error          |
 | ![](../Ex02/Images/Icon_Maintenance_needed.jpg)| Maintenance needed |
 | ![](../Ex02/Images/Icon_Maintenance_necessary.jpg) | Maintenance necessary |
 | ![](../Ex02/Images/Icon_error.jpg) | Error, maintenance necessary |
