@@ -16,10 +16,12 @@ Back to the [project scope](Ex02/Subchapter04.md).
 >- FC_Sign2 - Traffic lights of Sign 2 in LAD
 
 Use only the next instructions:
+
 | ![](../Ex02/Images/FBD_PF.jpg) | ![](../Ex02/Images/FBD_Set.jpg) | ![](../Ex02/Images/FBD_Reset.jpg)| ![](../Ex02/Images/FBD_TON.jpg) |
 | :---: | :---: | :---: | :---: |
 
 Scheme to program FC_Normal:
+
 | **FC_Normal** | **Network 1 Actions** | **Network 2 Actions** | **Network 3 Actions** | **Network 4 Actions** | **Condition**      |
 | :-----------: | :-------------------: | :-------------------: | :-------------------: | :-------------------: | :----------------: |
 | Step 1        | **mFrom1to2:=TRUE** <br> mWarning1to2:=FALSE <br> mFrom2to1:=FALSE <br> mWarning2to1:=FALSE |  |  |  | iSelEmergency_S5<br> OFF->ON |
@@ -29,6 +31,7 @@ Scheme to program FC_Normal:
 | Step 5        |  |  |  | mFrom1to2:=FALSE <br> mWarning1to2:=FALSE <br> mFrom2to1:=FALSE <br> **mWarning2to1:=TRUE** | TON4.PT=3s <br>-> Step 2  |
 
 Scheme to program FC_Sign1 & FC_Sign2:
+
 |               | **mFrom1to2**      | **mWarning1to2**                              | **mFrom2to1**   | **mWarning2to1**   |
 | :-----------: | :----------------: | :-------------------------------------------: | :-------------: | :----------------: |
 | **iSelEmergency_S5=OFF** | T = 12 s         | T = 3 s                                      | T = 12 s      | T = 3 s          |
