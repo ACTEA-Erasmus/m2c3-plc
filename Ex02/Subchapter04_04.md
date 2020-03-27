@@ -10,28 +10,26 @@ _____________________________________
 Back to the [project scope](Ex02/Subchapter04.md).
 
 ## Goal 4 : Debug software
-Go online (do *not* download the software) and check in the “*Project tree*” the
-map “*Program blocks*” on *online* and *offline* differences
+Go online (do *__not__* download the software) and check in the “*Project tree*” the map “*Program blocks*” on *online* and *offline* differences.
 
-The next table shows the online diagnostic icons. Mark those icons which are
-visible in your “*Online view*”.
+The next table shows the online diagnostic icons.
 
-| **Icon** | **Description**                                                   | **Present (Y/N)** |
-|----------|-------------------------------------------------------------------|-------------------|
-|          | Software error, **can be showed in combination with other icons** |                   |
-|          | There is a difference between the online and offline block        |                   |
-|          | Block only exist in the online version                            |                   |
-|          | Block only exist in the offline version                           |                   |
-|          | The offline and online blocks are equal                           |                   |
+| **Icon** | **Description**                                                   |
+|:---------:|-------------------------------------------------------------------|
+| ![](../Ex02/Images/Icon_soft_error.jpg)| Software error, **can be showed in combination with other icons** |
+| ![](../Ex02/Images/Icon_soft_diff.jpg) | There is a difference between the online and offline block        |
+| ![](../Ex02/Images/Icon_soft_online.jpg) | Block only exist in the online version                            |
+| ![](../Ex02/Images/Icon_soft_offline.jpg) | Block only exist in the offline version                           |
+| ![](../Ex02/Images/Icon_soft_ok.jpg) | The offline and online blocks are equal                           |
 
+There should be a difference between the *online* and *offline* version.
 
-There should be a difference between the *online* and o*ffline* version.
+**Solve** the **software difference** by:
+>Call the *Function* FC_Normal in the *Organization block* Main [%OB1] and download the software to the device.
 
-Call the *Function* FC_Normal in the *Organization block* Main [%OB1] and
-download the software to the device. Check the functionality of both warning
-lamps (orange lamps).
--   Use the “*Monitoring on/off*” function in the “*Online view*” of the
+**Check the functionality** of both warning lamps (orange lamps).
+>-   Use the “*Monitoring on/off*” function in the “*Online view*” of the
     “*Program blocks*”
--   Change the state of the selector switch
--   Both the orange lamps should be blinking if the selector switch has the
+>-   Change the state of the selector switch
+>-   Both the orange lamps should be blinking if the selector switch has the
     state OFF

@@ -11,7 +11,7 @@ Back to the [project scope](Ex02/Subchapter04.md).
 
 ## Goal 3 : Create software
 ### Create PLC TAGs
-Create 2 PLC TAG tables:
+Create next TAG tables:
 >-   Table_IO
 >-   Table_Flags
 
@@ -46,21 +46,20 @@ Create 2 PLC TAG tables:
 >-   Network 2 : Orange lamp – WARNING
 >-   Network 3 : Green lamp – DRIVE THROUGH
 
-**Step 2 :** Change the title of the function to “Sign 1”
+**Step 2 :** Change the **title of the function** to “Sign 1”
 
-**Step 3 :** Program in network 2 the functionality of the orange lamp “oS1_LmpOrange_H3”.
+**Step 3 :** Program in **network 2** the functionality of the orange lamp “oS1_LmpOrange_H3”.
 
 >$oS1_LmpOrange_H3:= (\overline{iSelEmergency_S5}.mClock_1Hz)+(iSelEmergency_S5.mWarning1to2)$
 
-**Step 4 :** Select network 2 and copy this network to FC_Sign2.
+**Step 4 :** Select network 2 and **copy** this network to FC_Sign2.
 
-Replace after copying:
--   “mWarning1to2” *by* “mWarning2to1”
--   “oS1-LmpOrange-H3” *by* “oS2-LmpOrange-H4”
-
+> Replace after copying:
+>-   “mWarning1to2” *by* “mWarning2to1”
+>-   “oS1-LmpOrange-H3” *by* “oS2-LmpOrange-H4”
 
 **Step 5 :** Finish the function FC_Sign2 by adding networks, network titles and
 a block title in the same structure as FC_Sign1.
 
-**Step 6 :** Create a new function FC_Normal (do *not* call this function in
+**Step 6 :** Create a new function FC_Normal (do *__not__* call this function in
 %OB1)
