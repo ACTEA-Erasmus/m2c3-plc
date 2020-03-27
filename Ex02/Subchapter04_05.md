@@ -16,11 +16,10 @@ Back to the [project scope](Ex02/Subchapter04.md).
 >- FC_Sign2 - Traffic lights of Sign 2 in LAD
 
 Use only the next instructions:
-| ![](../Ex02/Images/FBD_Pf.jpg) | ![](../Ex02/Images/FBD_Set.jpg) | ![](../Ex02/Images/FBD_Reset.jpg)| ![](../Ex02/Images/FBD_TON.jpg) |
+| ![](../Ex02/Images/FBD_PF.jpg) | ![](../Ex02/Images/FBD_Set.jpg) | ![](../Ex02/Images/FBD_Reset.jpg)| ![](../Ex02/Images/FBD_TON.jpg) |
 | :---: | :---: | :---: | :---: |
 
 Scheme to program FC_Normal:
-
 | **FC_Normal** | **Network 1 Actions** | **Network 2 Actions** | **Network 3 Actions** | **Network 4 Actions** | **Condition**      |
 | :-----------: | :-------------------: | :-------------------: | :-------------------: | :-------------------: | :----------------: |
 | Step 1        | **mFrom1to2:=TRUE** <br> mWarning1to2:=FALSE <br> mFrom2to1:=FALSE <br> mWarning2to1:=FALSE |  |  |  | iSelEmergency_S5<br> OFF->ON |
@@ -30,14 +29,13 @@ Scheme to program FC_Normal:
 | Step 5        |  |  |  | mFrom1to2:=FALSE <br> mWarning1to2:=FALSE <br> mFrom2to1:=FALSE <br> **mWarning2to1:=TRUE** | TON4.PT=3s <br>-> Step 2  |
 
 Scheme to program FC_Sign1 & FC_Sign2:
-
 |               | **mFrom1to2**      | **mWarning1to2**                              | **mFrom2to1**   | **mWarning2to1**   |
 | :-----------: | :----------------: | :-------------------------------------------: | :-------------: | :----------------: |
 | **iSelEmergency_S5=OFF** | T = 12 s         | T = 3 s                                      | T = 12 s      | T = 3 s          |
-| Sign 1        | ![](../Ex02/Images/sign_gn.jpg) | ![](../Ex02/Images/sign_yw.jpg) | ![](../Ex02/Images/sign_rd.jpg) | ![](../Ex02/Images/sign_rd.jpg) |
-| Sign 2        | ![](../Ex02/Images/sign_rd.jpg) | ![](../Ex02/Images/sign_rd.jpg) | ![](../Ex02/Images/sign_yw.jpg) | ![](../Ex02/Images/sign_gn.jpg) |
+| Sign 1        | ![](../Ex02/Images/Sign_gn.jpg) | ![](../Ex02/Images/Sign_yw.jpg) | ![](../Ex02/Images/Sign_rd.jpg) | ![](../Ex02/Images/Sign_rd.jpg) |
+| Sign 2        | ![](../Ex02/Images/Sign_rd.jpg) | ![](../Ex02/Images/Sign_rd.jpg) | ![](../Ex02/Images/Sign_yw.jpg) | ![](../Ex02/Images/Sign_gn.jpg) |
 | **iSelEmergency_S5=ON**  | **Traffic sign** | **Description**                              |               |                  |
-| Sign 1        | ![](../Ex02/Images/sign_yw_blink.jpg) | Orange light blinks with a frequency of 1 Hz |               |                  |
-| Sign 2        | ![](../Ex02/Images/sign_yw_blink.jpg) | Orange light blinks with a frequency of 1 Hz |               |                  |
+| Sign 1        | ![](../Ex02/Images/Sign_yw_blink.jpg) | Orange light blinks with a frequency of 1 Hz |               |                  |
+| Sign 2        | ![](../Ex02/Images/Sign_yw_blink.jpg) | Orange light blinks with a frequency of 1 Hz |               |                  |
 
 **Download** the software to the device **and test** the functionality of traffic sign 1 and traffic sign 2.
