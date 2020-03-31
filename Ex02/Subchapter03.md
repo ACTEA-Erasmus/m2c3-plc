@@ -1,6 +1,6 @@
 ![](../Ex02/Images/Logo_Siemens_TIA_Portal.jpg)
 _____________________________________
-## About Siemens TIA Portal
+## Siemens TIA Portal
 With SIMATIC TIA Portal users configure, program, test and diagnose the basic, advanced, distributed controllers and HMI panels, whether it is PLC- or PC-based, incl. software controllers. SIMATIC TIA Portal can be expand with supplements for configure, test and diagnose applications such as drives, network applications, ... .
 
 ![Hardware overview TIA Portal](../Ex02/Images/TIA_HW_Overview.jpg)
@@ -40,13 +40,17 @@ TIA Portal can be started by double-clicking the TIA Portal icon. A new set of i
 <sup> 1 Can be started from: "C:\Program Files\Common Files\Siemens\CommunicationSettings\CommunicationSettings.exe" </sup>
 
 ## Start TIA Portal
-TIA Portal can be started, by double-clicking its icon, in 2 views where it is possible to switch between views:
+TIA Portal can be started, by double-clicking its icon, in 2 views:
 - Portal view : Run through a wizard to add a device (**Default view**)
 - Project view : To program and add devices (**Preferred view**)
 
 It is possible to switch between the 2 views by means of clicking the text "Project view" or "Portal view" at the bottom left.
 
 ![Portal view](../Ex02/Images/TIA_Portal_View.jpg "Portal View")
+
+Move the cursor over the figures to discover the views.
+
+![Project view](../Ex02/Images/TIA_Project_View.jpg "Project View")
 
 ## Create a new Project
 

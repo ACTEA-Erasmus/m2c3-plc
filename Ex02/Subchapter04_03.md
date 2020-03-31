@@ -58,12 +58,11 @@ oS1_LmpOrange_H3:=(NOT(iSelEmergency_S5).mClock_1Hz)+(iSelEmergency_S5.mWarning1
 ```
 
 <details>
-  <summary>Click here to view the solution</summary>
+  <summary markdown="span">Click here to view the solution</summary>
 
   ![](../Ex02/Images/Ex02_SW_S1_LmpOr.jpg)
 
 </details>
-<br>
 
 **Step 6 :** Select network 2 and copy this network to FC_Sign2. Replace after copying:
 
@@ -78,11 +77,11 @@ a block title in the same structure as FC_Sign1.
 **Step 8 :** Change the programming language of FC_Sign2 to LAD
 
 <details>
+
   <summary>Click here to view the solution</summary>
 
   ![](../Ex02/Images/Ex02_SW_S2_LmpOr.jpg)
 
 </details>
-<br>
 
 **Step 9 :** Create a new function FC_Normal (do *__not__* call this function in %OB1)
