@@ -58,7 +58,7 @@ oS1_LmpOrange_H3:=(NOT(iSelEmergency_S5).mClock_1Hz)+(iSelEmergency_S5.mWarning1
 ```
 
 <details>
-  <summary> `Click here to view the solution`</summary>
+  <summary>Click here to view the solution</summary>
 
   ![](../Ex02/Images/Ex02_SW_S1_LmpOr.jpg)
 
@@ -78,7 +78,7 @@ a block title in the same structure as FC_Sign1.
 **Step 8 :** Change the programming language of FC_Sign2 to LAD
 
 <details>
-  <summary> <sub>Click here to view the solution</summary>
+  <summary>Click here to view the solution</summary>
 
   ![](../Ex02/Images/Ex02_SW_S2_LmpOr.jpg)
 
