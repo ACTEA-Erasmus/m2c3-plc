@@ -67,8 +67,8 @@ oS1_LmpOrange_H3:=(NOT(iSelEmergency_S5).mClock_1Hz)+(iSelEmergency_S5.mWarning1
 **Step 6 :** Select network 2 and copy this network to FC_Sign2. Replace after copying:
 
 ```javascript
-mWarning1to2 *by* mWarning2to1
-oS1_LmpOrange_H3 *by* oS2_LmpOrange_H4
+mWarning1to2 "by" mWarning2to1
+oS1_LmpOrange_H3 "by" oS2_LmpOrange_H4
 ```
 
 **Step 7 :** Finish FC_Sign2 by adding networks, network titles and
@@ -80,7 +80,7 @@ a block title in the same structure as FC_Sign1.
 
   <summary>Click here to view the solution</summary>
 
-  ![](../Ex02/Images/Ex02_SW_S2_LmpOr.jpg)
+Test
 
 </details>
 

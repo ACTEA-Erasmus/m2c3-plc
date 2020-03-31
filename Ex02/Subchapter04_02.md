@@ -35,7 +35,7 @@ There should be some faults in your configuration:
 
 **Step 2 :** Debug these faults!
 ```javascript
-Change the ""Offline"" hardware configuration until it match with your device.
+Change the offline hardware configuration until it match with your device.
 Download the hardware configuration and check your “Online view” for errors.
 Repeat this until your configuration is error-free.
 ```
