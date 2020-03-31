@@ -1,10 +1,9 @@
-<img src="Ex02/Images/Logo_Siemens_TIA_Portal.jpg" style="position:absolute;top:0px;right:0px;" />
+<img src="/Ex02/Images/Logo_Siemens_TIA_Portal.jpg" style="position:absolute;top:0px;right:0px;" />
 
 # Introduction into Siemens TIA Portal
 _____________________________________
 ## About Siemens TIA Portal
 With SIMATIC TIA Portal users configure, program, test and diagnose the basic, advanced, distributed controllers and HMI panels, whether it is PLC- or PC-based, incl. software controllers.
-
 SIMATIC TIA Portal can be expand with supplements for configure, test and diagnose applications such as drives, network applications, ... .
 
 ![Hardware overview TIA Portal](../Ex02/Images/TIA_HW_Overview.jpg)
