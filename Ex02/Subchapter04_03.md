@@ -56,14 +56,6 @@ Network 3 : Green lamp – DRIVE THROUGH
 ```javascript
 oS1_LmpOrange_H3:=(NOT(iSelEmergency_S5).mClock_1Hz)+(iSelEmergency_S5.mWarning1to2)
 ```
-
-<details>
-  <summary markdown="span">Click here to view the solution</summary>
-
-  ![](../Ex02/Images/Ex02_SW_S1_LmpOr.jpg)
-
-</details>
-
 **Step 6 :** Select network 2 and copy this network to FC_Sign2. Replace after copying:
 
 ```javascript
@@ -75,15 +67,5 @@ oS1_LmpOrange_H3 "by" oS2_LmpOrange_H4
 a block title in the same structure as FC_Sign1.
 
 **Step 8 :** Change the programming language of FC_Sign2 to LAD
-
-<details>
-  <summary markdown="span">This is the summary text, click me to expand</summary>
-
-  This is the detailed text.
-
-  We can still use markdown, but we need to take the additional step of using the `parse_block_html` option as described in the [Mix HTML + Markdown Markup section](#mix-html--markdown-markup).
-
-  You can learn more about expected usage of this approach in the [GitLab UI docs](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/base-collapse--default) though the solution we use above is specific to usage in markdown.
-</details>
 
 **Step 9 :** Create a new function FC_Normal (do *__not__* call this function in %OB1)

@@ -52,30 +52,44 @@ Move the cursor over the figures to discover the views.
 
 ![Project view](../Ex02/Images/TIA_Project_View.jpg "Project View")
 
-## Create a new Project
+## Create a new Project in TIA Portal
+A new project can be created in Portal or Project view.
+* Portal view : Through the button "Create new Project"
+* Project view : Through the toolbar "Project" > "New..."
 
 ![New TIA Project](../Ex02/Images/TIA_new_project.jpg)
 
-## PLC Hardware
-### Add a new PLC Device
+## Add a new PLC Device to a project
 ![Select CPU](../Ex02/Images/TIA_select_CPU.jpg)
 
 Configure the device by double-click on “Device configuration” and selecting the CPU in the Device view. The properties can be configured in the Properties view.
 
 ![Open Device configuration](../Ex02/Images/TIA_Open_Device_configuration.jpg)
 
-### Add modules to a Device
-Add the signal board and the signal module with drag-and-drop from the hardware catalog to the device. Allowed locations in the rack are showed with a blue rectangle.
+## Add modules to a PLC Device
+A PLC Device can be expanded with additional modules such as:
+* Digital input modules to process digital sensors
+* Digital output modules to control digital actuators
+* Analog input modules to process analog sensors
+* Analog output modules to control analog actuators
+* Industrial network modules to process communication through Profibus, ProfiNET, etc.
+* Other modules such as ..
+
+The Siemens S7-1200 CPU is foreseen with an extra location for modules in the middle of the CPU. Additional modules for this location are called boards.
+
+Modules and boards can be added to a PLC device by opening the "Device configuration" and to drag a module from the catalog to the CPU.
+Allowed locations in the PLC rack are showed with a blue rectangle.
 
 ![Add modules](../Ex02/Images/TIA_Add_modules.jpg)
+
+Each module and device can be configured in the "Properties" window of the "Device configuration" by selecting the item. Also some internal parts of a device can be configured this way.
+
+For example: The ProfiNET/Ethernet port can be configured in the "Properties" window after selecting it.
 
 ### Download hardware
 
 ![Hardware download](../Ex02/Images/TIA_HW_download.jpg)
 
-```javascript
-
-```
 
 ## PLC software
 Software code can be programmed into 'Program blocks' in 5 programming languages:
