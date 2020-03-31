@@ -2,11 +2,11 @@
 
 # Basic PLC Programming - Course infosheet
 ____________________________________________________________
-Study load: 5 credits
-Total studytime: 125 hours
+* Study load: 5 credits
+* Total studytime: 125 hours
 
-EU-Partner(s): AP University College
-TC-Partner(s):
+* EU-Partner(s): AP University College
+* TC-Partner(s):
 
 ## Prerequisites
 * Participated in Electro Pneumatic Control
