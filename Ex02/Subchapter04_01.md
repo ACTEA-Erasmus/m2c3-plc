@@ -11,9 +11,11 @@ Back to the [project scope](Ex02/Subchapter04.md).
 
 ## Goal 1 : Configure the hardware
 ### Create a new TIA Portal project
->- Project name : Task1-BasicProgramming
->- Author : *Your name*
+```javascript
+Project name : Task1-BasicProgramming
+>- Author : Your name
 >- Comment : Project railroad bridge
+```
 
 ### Add a PLC-device
 CPU settings:

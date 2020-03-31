@@ -1,4 +1,4 @@
-[![ACTEA_logo](/ACTEA_logo.jpg)](https://www.actea.net/)
+<img src="/ACTEA_logo.jpg" style="position:absolute;top:0px;right:0px;" />
 
 # Basic PLC Programming - Course infosheet
 ____________________________________________________________

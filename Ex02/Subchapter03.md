@@ -3,8 +3,7 @@
 # Introduction into Siemens TIA Portal
 _____________________________________
 ## About Siemens TIA Portal
-With SIMATIC TIA Portal users configure, program, test and diagnose the basic, advanced, distributed controllers and HMI panels, whether it is PLC- or PC-based, incl. software controllers.
-SIMATIC TIA Portal can be expand with supplements for configure, test and diagnose applications such as drives, network applications, ... .
+With SIMATIC TIA Portal users configure, program, test and diagnose the basic, advanced, distributed controllers and HMI panels, whether it is PLC- or PC-based, incl. software controllers. SIMATIC TIA Portal can be expand with supplements for configure, test and diagnose applications such as drives, network applications, ... .
 
 ![Hardware overview TIA Portal](../Ex02/Images/TIA_HW_Overview.jpg)
 
@@ -43,12 +42,13 @@ TIA Portal can be started by double-clicking the TIA Portal icon. A new set of i
 <sup> 1 Can be started from: "C:\Program Files\Common Files\Siemens\CommunicationSettings\CommunicationSettings.exe" </sup>
 
 ## Start TIA Portal
-Start TIA Portal by double-clicking the icon.
+TIA Portal can be started, by double-clicking its icon, in 2 views where it is possible to switch between views:
+- [ ] Portal view : Run through a wizard to add a device (**Default view**)
+- [ ] Project view : To program and add devices (**Preferred view**)
 
-TIA Portal can be started in 2 views where it is possible to switch between views:
-* Portal view : Run through a wizard to add a device (**Default view**)
-* Project view : To program and add devices (**Preferred view**)
+It is possible to switch between the 2 views by means of clicking the text "Project view" or "Portal view" at the bottom left.
 
+![Portal view](../Ex02/Images/TIA_Portal_View.jpg)
 
 ## Create a new Project
 
@@ -58,18 +58,24 @@ TIA Portal can be started in 2 views where it is possible to switch between view
 ### Add a new PLC Device
 ![Select CPU](../Ex02/Images/TIA_select_CPU.jpg)
 
+```
 Configure the device by double-click on “Device configuration” and selecting the CPU in the Device view. The properties can be configured in the Properties view.
+```
 
 ![Open Device configuration](../Ex02/Images/TIA_Open_Device_configuration.jpg)
 
 ### Add modules to a Device
-Add the signal board and the signal module with drag-and-drop from the hardware catalog to the device. Allowed locations in the rack are showed with a blue rectangle.
+`Add the signal board and the signal module with drag-and-drop from the hardware catalog to the device. Allowed locations in the rack are showed with a blue rectangle.`
 
 ![Add modules](../Ex02/Images/TIA_Add_modules.jpg)
 
 ### Download hardware
 
 ![Hardware download](../Ex02/Images/TIA_HW_download.jpg)
+
+```javascript
+
+```
 
 ## PLC software
 Software code can be programmed into 'Program blocks' in 5 programming languages:
