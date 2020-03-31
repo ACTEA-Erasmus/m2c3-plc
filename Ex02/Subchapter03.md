@@ -1,4 +1,4 @@
-<img src="../Ex02/Images/Logo_Siemens_TIA_Portal.jpg" style="position:absolute;top:0px;right:0px;" />
+<img src="Ex02/Images/Logo_Siemens_TIA_Portal.jpg" style="position:absolute;top:0px;right:0px;" />
 
 # Introduction into Siemens TIA Portal
 _____________________________________
