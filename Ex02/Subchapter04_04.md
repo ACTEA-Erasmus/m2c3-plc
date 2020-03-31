@@ -10,7 +10,7 @@ _____________________________________
 Back to the [project scope](Ex02/Subchapter04.md).
 
 ## Goal 4 : Debug software
-Go online (do *__not__* download the software) and check in the “*Project tree*” the map “*Program blocks*” on *online* and *offline* differences.
+**Step 1 :** Go online (do *__not__* download the software) and check in the “*Project tree*” the map “*Program blocks*” on *online* and *offline* differences.
 
 The next table shows the online diagnostic icons.
 
@@ -24,12 +24,17 @@ The next table shows the online diagnostic icons.
 
 There should be a difference between the *online* and *offline* version.
 
-**Solve** the **software difference** by:
->- Call the *Function* FC_Normal in the *Organization block* Main [%OB1] and download the software to the device.
+**Step 2 :** Solve the software difference by:
 
-**Check the functionality** of both warning lamps (orange lamps).
->-   Use the “*Monitoring on/off*” function in the “*Online view*” of the
-    “*Program blocks*”
->-   Change the state of the selector switch
->-   Both the orange lamps should be blinking if the selector switch has the
-    state OFF
+```javascript
+- Call the Function "FC_Normal" in the Organization block "Main" [%OB1]
+- Download the software to the device
+```
+
+**Step 3 :** Check the functionality of both warning lamps (orange lamps)
+
+```javascript
+- Use the “Monitoring on/off” function in the “Online view” of the “Program blocks”
+- Change the state of the selector switch
+- Both the orange lamps should be blinking if the selector switch has the state OFF
+```

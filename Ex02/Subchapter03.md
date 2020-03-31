@@ -1,6 +1,4 @@
-<img src="/Ex02/Images/Logo_Siemens_TIA_Portal.jpg" style="position:absolute;top:0px;right:0px;" />
-
-# Introduction into Siemens TIA Portal
+![](../Ex02/Images/Logo_Siemens_TIA_Portal.jpg)
 _____________________________________
 ## About Siemens TIA Portal
 With SIMATIC TIA Portal users configure, program, test and diagnose the basic, advanced, distributed controllers and HMI panels, whether it is PLC- or PC-based, incl. software controllers. SIMATIC TIA Portal can be expand with supplements for configure, test and diagnose applications such as drives, network applications, ... .
@@ -43,12 +41,12 @@ TIA Portal can be started by double-clicking the TIA Portal icon. A new set of i
 
 ## Start TIA Portal
 TIA Portal can be started, by double-clicking its icon, in 2 views where it is possible to switch between views:
-- [ ] Portal view : Run through a wizard to add a device (**Default view**)
-- [ ] Project view : To program and add devices (**Preferred view**)
+- Portal view : Run through a wizard to add a device (**Default view**)
+- Project view : To program and add devices (**Preferred view**)
 
 It is possible to switch between the 2 views by means of clicking the text "Project view" or "Portal view" at the bottom left.
 
-![Portal view](../Ex02/Images/TIA_Portal_View.jpg)
+![Portal view](../Ex02/Images/TIA_Portal_View.jpg "Portal View")
 
 ## Create a new Project
 
@@ -58,9 +56,7 @@ It is possible to switch between the 2 views by means of clicking the text "Proj
 ### Add a new PLC Device
 ![Select CPU](../Ex02/Images/TIA_select_CPU.jpg)
 
-```
 Configure the device by double-click on “Device configuration” and selecting the CPU in the Device view. The properties can be configured in the Properties view.
-```
 
 ![Open Device configuration](../Ex02/Images/TIA_Open_Device_configuration.jpg)
 

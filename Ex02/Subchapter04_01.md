@@ -10,15 +10,14 @@ _____________________________________
 Back to the [project scope](Ex02/Subchapter04.md).
 
 ## Goal 1 : Configure the hardware
-### Create a new TIA Portal project
+**Step 1 :** Create a new TIA Portal project
 ```javascript
 Project name  : Task1-BasicProgramming
 Author        : Your name
 Comment       : Project railroad bridge
 ```
 
-### Add a PLC-device
-CPU settings:
+**Step 2 :** Add a PLC-device with next CPU settings
 ```javascript
 Type                          : See available CPU
 System byte                   : %MB254
@@ -30,7 +29,7 @@ IP-address                    : 192.168.0.30
 IP-address subnet mask        : 255.255.255.0
 ```
 
-Signal board settings:
+**Step 3 :** Add a signal board settings:
 ```javascript
 Type                          : SB1231 1x12BIT - 6ES7 232-4HA30-0XB0
 Analog output start address   : %QB80
@@ -42,18 +41,17 @@ Digital input settings:
 Type                          : SM1221 DI8x24VDC - 6ES7 221-1BF30-0XB0
 Digital input start address   : %IB8
 ```
-### Add software blocks
-Add next *Functions* (FC) into PLC_1 in the FBD program language:
 
+**Step 4 :** Add next *Functions* (FC) into PLC_1 in the FBD program language:
 ```javascript
 FC_Sign1
 FC_Sign2
 ```
 
-Add both Functions into *Organization block* Main [OB1] in separated networks:
+**Step 5 :** Add both Functions into *Organization block* Main [OB1] in separated networks:
 ```javascript
 FC_Sign1 into network 1
 FC_Sign2 into network 2
 ```
 
-**Download the hardware** configuration into the available CPU. When the device configuration was downloaded successfully; start the download of the software into the CPU. We do this to remove any existing software in the CPU.
+**Step 6 :** **Download the hardware** configuration into the available CPU. When the device configuration was downloaded successfully; start the download of the software into the CPU. We do this to remove any existing software in the CPU.

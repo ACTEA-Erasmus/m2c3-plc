@@ -10,12 +10,14 @@ _____________________________________
 Back to the [project scope](Ex02/Subchapter04.md).
 
 ## Goal 5 : Deliver a working project
-**Program** the functionality of the traffic lights in
->- FC_Normal - The automatic functionality of the signs
->- FC_Sign1 - Traffic lights of Sign 1 in FBD
->- FC_Sign2 - Traffic lights of Sign 2 in LAD
+**Step 1 :** Program the functionality of the traffic lights in
+```javascript
+- FC_Normal - The automatic functionality of the signs
+- FC_Sign1 - Traffic lights of traffic sign 1 in FBD
+- FC_Sign2 - Traffic lights of traffic sign 2 in LAD
+```
 
-Use only the next instructions:
+Use only these instructions:
 
 | ![](../Ex02/Images/FBD_PF.jpg) | ![](../Ex02/Images/FBD_Set.jpg) | ![](../Ex02/Images/FBD_Reset.jpg)| ![](../Ex02/Images/FBD_TON.jpg) |
 | :---: | :---: | :---: | :---: |
@@ -41,4 +43,4 @@ Scheme to program FC_Sign1 & FC_Sign2:
 | Sign 1        | ![](../Ex02/Images/Sign_yw_blink.jpg) | Orange light blinks <br> with a frequency <br> of 1 Hz |               |                  |
 | Sign 2        | ![](../Ex02/Images/Sign_yw_blink.jpg) | Orange light blinks <br> with a frequency <br> of 1 Hz |               |                  |
 
-**Download** the software to the device **and test** the functionality of traffic sign 1 and traffic sign 2.
+**Step 2 :** Download the software to the device and test the functionality of traffic sign 1 and traffic sign 2.
