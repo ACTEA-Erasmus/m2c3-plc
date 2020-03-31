@@ -65,7 +65,7 @@ Configure the device by double-click on “Device configuration” and selecting
 ![Open Device configuration](../Ex02/Images/TIA_Open_Device_configuration.jpg)
 
 ### Add modules to a Device
-`Add the signal board and the signal module with drag-and-drop from the hardware catalog to the device. Allowed locations in the rack are showed with a blue rectangle.`
+Add the signal board and the signal module with drag-and-drop from the hardware catalog to the device. Allowed locations in the rack are showed with a blue rectangle.
 
 ![Add modules](../Ex02/Images/TIA_Add_modules.jpg)
 
@@ -93,13 +93,6 @@ FBD, LAD and SFC are graphical based programming languages. This means that inst
 ![Add function](../Ex02/Images/TIA_add_FC.jpg)
 
 ### Function Blocks [FB]
-
-<details>
-  <summary>Click to expand!</summary>
-
-  tested
-
-</details>
 
 ### Data Blocks [FB]
 

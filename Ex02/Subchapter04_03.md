@@ -10,12 +10,14 @@ _____________________________________
 Back to the [project scope](Ex02/Subchapter04.md).
 
 ## Goal 3 : Create software
-### Create PLC TAGs
-Create next TAG tables:
->-   Table_IO
->-   Table_Flags
+**Step 1 :** Create next TAG tables:
 
-**Create** the next **PLC TAGs** into the new PLC TAG tables:
+```javascript
+Table_IO
+Table_Flags
+```
+
+**Step 2 :** **Create** the next **PLC TAGs** into the new PLC TAG tables:
 
 | **Name**           | **Datatype** | **Address** | **Comment**                     |
 |--------------------|--------------|-------------|---------------------------------|
@@ -39,27 +41,48 @@ Create next TAG tables:
 
 <sup>1</sup> *Select an input with a switch*
 
-### Program blocks
-**Step 1 :** Activate the “*Offline view*” and start the **programmation of FC_Sign1**:
->Open the function and add the next networks:
->-   Network 1 : Red lamp – STOP
->-   Network 2 : Orange lamp – WARNING
->-   Network 3 : Green lamp – DRIVE THROUGH
+**Step 3 :** Activate the “*Offline view*” and start the programmation of FC_Sign1 by opening the function and add the next networks:
 
-**Step 2 :** Change the **title of the function** to “Sign 1”
+```javascript
+Network 1 : Red lamp – STOP
+Network 2 : Orange lamp – WARNING
+Network 3 : Green lamp – DRIVE THROUGH
+```
 
-**Step 3 :** Program in **network 2** the functionality of the orange lamp “oS1_LmpOrange_H3”.
+**Step 4 :** Change the title of the function to “Sign 1”
 
->$oS1_LmpOrange_H3:= (\overline{iSelEmergency_S5}.mClock_1Hz)+(iSelEmergency_S5.mWarning1to2)$
+**Step 5 :** Program in network 2 the functionality of the orange lamp “oS1_LmpOrange_H3”.
 
-**Step 4 :** Select network 2 and **copy** this network to FC_Sign2.
+```javascript
+oS1_LmpOrange_H3:=(NOT(iSelEmergency_S5).mClock_1Hz)+(iSelEmergency_S5.mWarning1to2)
+```
 
-> Replace after copying:
->-   “mWarning1to2” *by* “mWarning2to1”
->-   “oS1-LmpOrange-H3” *by* “oS2-LmpOrange-H4”
+<details>
+  <summary> `Click here to view the solution`</summary>
 
-**Step 5 :** Finish the function FC_Sign2 by adding networks, network titles and
+  ![](../Ex02/Images/Ex02_SW_S1_LmpOr.jpg)
+
+</details>
+<br>
+
+**Step 6 :** Select network 2 and copy this network to FC_Sign2. Replace after copying:
+
+```javascript
+mWarning1to2 *by* mWarning2to1
+oS1_LmpOrange_H3 *by* oS2_LmpOrange_H4
+```
+
+**Step 7 :** Finish FC_Sign2 by adding networks, network titles and
 a block title in the same structure as FC_Sign1.
 
-**Step 6 :** Create a new function FC_Normal (do *__not__* call this function in
-%OB1)
+**Step 8 :** Change the programming language of FC_Sign2 to LAD
+
+<details>
+  <summary> <sub>Click here to view the solution</summary>
+
+  ![](../Ex02/Images/Ex02_SW_S2_LmpOr.jpg)
+
+</details>
+<br>
+
+**Step 9 :** Create a new function FC_Normal (do *__not__* call this function in %OB1)
