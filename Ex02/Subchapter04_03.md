@@ -77,11 +77,13 @@ a block title in the same structure as FC_Sign1.
 **Step 8 :** Change the programming language of FC_Sign2 to LAD
 
 <details>
+  <summary markdown="span">This is the summary text, click me to expand</summary>
 
-  <summary>Click here to view the solution</summary>
+  This is the detailed text.
 
-Test
+  We can still use markdown, but we need to take the additional step of using the `parse_block_html` option as described in the [Mix HTML + Markdown Markup section](#mix-html--markdown-markup).
 
+  You can learn more about expected usage of this approach in the [GitLab UI docs](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/base-collapse--default) though the solution we use above is specific to usage in markdown.
 </details>
 
 **Step 9 :** Create a new function FC_Normal (do *__not__* call this function in %OB1)
