@@ -29,29 +29,29 @@ IP-address                    : 192.168.0.30
 IP-address subnet mask        : 255.255.255.0
 ```
 
-**Step 3 :** Add a signal board settings:
+**Step 3 :** Add a signal board and configure it:
 ```javascript
 Type                          : SB1231 1x12BIT - 6ES7 232-4HA30-0XB0
 Analog output start address   : %QB80
 Analog output signal          : Voltage
 ```
 
-Digital input settings:
+**Step 4 :** Add a digital input module and configure it:
 ```javascript
 Type                          : SM1221 DI8x24VDC - 6ES7 221-1BF30-0XB0
 Digital input start address   : %IB8
 ```
 
-**Step 4 :** Add next *Functions* (FC) into PLC_1 in the FBD program language:
+**Step 5 :** Add next *Functions* (FC) into PLC_1 in the FBD program language:
 ```javascript
 FC_Sign1
 FC_Sign2
 ```
 
-**Step 5 :** Add both Functions into *Organization block* Main [OB1] in separated networks:
+**Step 6 :** Add both Functions into *Organization block* Main [OB1] in separated networks:
 ```javascript
 FC_Sign1 into network 1
 FC_Sign2 into network 2
 ```
 
-**Step 6 :** **Download the hardware** configuration into the available CPU. When the device configuration was downloaded successfully; start the download of the software into the CPU. We do this to remove any existing software in the CPU.
+**Step 7 :** **Download the hardware** configuration into the available CPU. When the device configuration was downloaded successfully; start the download of the software into the CPU. We do this to remove any existing software in the CPU.

@@ -17,6 +17,7 @@ The **programmable brain** is a combination of processors and electronic memorie
 
 ## Programmble logic controller
 PLC stand for **Programmble Logic Controller** and it is mainly used in technical installations for B2B (Business-to-business) solutions. Therefore PLC's are installed into electrical cabinets and they are manufactured only by a few constructors such as Siemens, Beckhoff, Schneider-Electric, Allen-Bradley and Omron.
+
 Each constructor has more than one PLC series to have a solution for each automation project.
 
 ![Siemens S7-1200 PLC](../Ex01/Images/Siemens_S7_1200_PLC.jpg)

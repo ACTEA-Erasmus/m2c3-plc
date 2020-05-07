@@ -10,28 +10,13 @@ _____________________________________
 Back to the [project scope](Ex02/Subchapter04.md).
 
 ## Goal 2 : Debug hardware errors
-**Step 1 :** Go online and check the device configuration on hardware errors in the “Device view”.
+**Step 1 :** Go online and check the device configuration on hardware errors in the “Device view”. Use the online icons to check on errors.
 
 ```javascript
 There should be some faults in your configuration:
 - Is there really a signal board into your CPU?
 - Is there really an digital input module added to your CPU?
 ```
-
-| **Icon** | **Description**   |
-|:--------:|:------------------|
-| ![](../Ex02/Images/Icon_No_error.jpg) | No error          |
-| ![](../Ex02/Images/Icon_Maintenance_needed.jpg)| Maintenance needed |
-| ![](../Ex02/Images/Icon_Maintenance_necessary.jpg) | Maintenance necessary |
-| ![](../Ex02/Images/Icon_Error.jpg) | Error, maintenance necessary |
-| ![](../Ex02/Images/Icon_device_deactivated.jpg) | The device or module is deactivated |
-| ![](../Ex02/Images/Icon_device_not_reached.jpg) | The device or module cannot be reached |
-| ![](../Ex02/Images/Icon_device_no_iodata.jpg) | No input and/or output data available |
-| ![](../Ex02/Images/Icon_device_no_diagdata.jpg) | There is no diagnostic data available because the online and offline configurations are different |
-| ![](../Ex02/Images/Icon_device_not_compatible.jpg) | The device or module is available but is not compatible |
-| ![](../Ex02/Images/Icon_device_state_unkown.jpg) | There is a connection with the device or module but state is unknown |
-| ![](../Ex02/Images/Icon_device_diag_notallowed.jpg) | There is a connection with the device or module but diagnostic is not allowed |
-| ![](../Ex02/Images/Icon_device_hardware_fault.jpg) | Hardware fault, **can be showed in combination with other icons** |
 
 **Step 2 :** Debug these faults!
 ```javascript

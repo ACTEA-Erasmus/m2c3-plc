@@ -1,7 +1,7 @@
 ![](../Ex02/Images/Logo_Siemens_TIA_Portal.jpg)
 _____________________________________
 ## Siemens TIA Portal
-With SIMATIC TIA Portal users configure, program, test and diagnose the basic, advanced, distributed controllers and HMI panels, whether it is PLC- or PC-based, incl. software controllers. SIMATIC TIA Portal can be expand with supplements for configure, test and diagnose applications such as drives, network applications, ... .
+With SIMATIC TIA Portal users configure, program, test and diagnose basic, advanced, distributed controllers and HMI panels, whether it is PLC- or PC-based, incl. software controllers. SIMATIC TIA Portal can be expand with supplements for configure, test and diagnose applications such as drives, network applications, ... .
 
 ![Hardware overview TIA Portal](../Ex02/Images/TIA_HW_Overview.jpg)
 
@@ -44,22 +44,47 @@ TIA Portal can be started, by double-clicking its icon, in 2 views:
 - Portal view : Run through a wizard to add a device (**Default view**)
 - Project view : To program and add devices (**Preferred view**)
 
-It is possible to switch between the 2 views by means of clicking the text "Project view" or "Portal view" at the bottom left.
+The portal view provides a task-oriented view of the tools for working on the
+project. Here, you can quickly decide what you want to do and open the tool for the task at hand. If necessary, a change to the project view takes place
+automatically for the selected task.
 
 ![Portal view](../Ex02/Images/TIA_Portal_View.jpg "Portal View")
 
-Move the cursor over the figures to discover the views.
+The project view is used for hardware configuration, programming, creation of the visualization and many other tasks.
+
+By default, the project view displays the menu bar with the toolbars at the top, the project tree with all components of a project on the left and the so-called task cards with instructions and libraries, for example, on the right.
+
+If an element (for example, the device configuration) is selected in the project tree, it is displayed in the center and can be worked on there.
 
 ![Project view](../Ex02/Images/TIA_Project_View.jpg "Project View")
 
+It is possible to switch between the 2 views by means of clicking the text "Project view" or "Portal view" at the bottom left.
+
 ## Create a new Project in TIA Portal
 A new project can be created in Portal or Project view.
-* Portal view : Through the button "Create new Project"
-* Project view : Through the toolbar "Project" > "New..."
 
-![New TIA Project](../Ex02/Images/TIA_new_project.jpg)
+Portal view  |  Project view
+:--:|:--:
+"Create new Project"  |  "Project" > "New..."
+![Create new TIA Project](../Ex02/Images/Create_new_project.jpg) | ![New TIA Project](../Ex02/Images/TIA_new_project.jpg)
 
 ## Add a new PLC Device to a project
+### Portal view
+The project will be created after pushing the "Create" button and opened. The menu "Start", "First steps" will open automatically.
+
+![First steps](../Ex02/Images/First_steps.jpg)
+
+Push "Configure a device" in "Start" > "First steps" and switch to the "Add new device" menu.
+
+![Add new device](../Ex02/Images/Add_new_device.jpg)
+
+Select the S7-1200 CPU for your project and click on "Add".
+
+![Select new device](../Ex02/Images/Select_new_device.jpg)
+
+### Project view
+Double click on "Add new device" and select the S7-1200 CPU for your project.
+
 ![Select CPU](../Ex02/Images/TIA_select_CPU.jpg)
 
 Configure the device by double-click on “Device configuration” and selecting the CPU in the Device view. The properties can be configured in the Properties view.
@@ -75,6 +100,8 @@ A PLC Device can be expanded with additional modules such as:
 * Industrial network modules to process communication through Profibus, ProfiNET, etc.
 * Other modules such as ..
 
+![Add modules](../Ex02/Images/Add_modules.jpg)
+
 The Siemens S7-1200 CPU is foreseen with an extra location for modules in the middle of the CPU. Additional modules for this location are called boards.
 
 Modules and boards can be added to a PLC device by opening the "Device configuration" and to drag a module from the catalog to the CPU.
@@ -86,9 +113,39 @@ Each module and device can be configured in the "Properties" window of the "Devi
 
 For example: The ProfiNET/Ethernet port can be configured in the "Properties" window after selecting it.
 
-### Download hardware
+![Ethernet port configuration](../Ex02/Images/Config_ethernet_port.jpg)
 
-![Hardware download](../Ex02/Images/TIA_HW_download.jpg)
+Remark: Create a subnet if the CPU is not networked.
+
+![](../Ex02/Images/Not_networked.jpg)
+
+### Download hardware
+Each change in the "Device configuration" must be transferred to the CPU. This is done by downloading the hardware.
+
+Before you download the configuration, you should save your project by clicking the ![](../Ex02/Images/Save_project.jpg) button. The next step is to compile your CPU with the device configuration, first select the "CPU_1215C [CPU1215C DC/DC/DC]" folder and click the ![](../Ex02/Images/Compile_icon.jpg) "Compile" icon.
+
+> **Note:**
+> "Save project" should be used repeatedly when working on a project since this does not happen automatically. A prompt to save the project only occurs when the TIA Portal is closed.
+
+If the project was compiled without errors, you see the following screen.
+
+![](../Ex02/Images/No_errors.jpg)
+
+To download your entire CPU, select the → "CPU_1215C [CPU1215C DC/DC/DC]" folder and click the ![](../Ex02/Images/Download_icon.jpg) "Download to device" button.
+
+![](../Ex02/Images/Download_all.jpg)
+
+The manager for configuring the connection properties (extended download) opens.
+
+![](../Ex02/Images/Extended_download.jpg)
+
+First, the interface must be correctly selected. This happens in three steps.
+> **Step 1**: Type of the PG/PC interface → PN/IE
+> ![](../Ex02/Images/Download_step1.jpg) <br>
+> **Step 2**: PG/PC interface  → Select your network card
+> ![](../Ex02/Images/Download_step2.jpg) <br>
+> **Step 3**: Connection to interface/subnet → "PN/IE_1"
+> ![](../Ex02/Images/Download_step3.jpg) <br>
 
 
 ## PLC software

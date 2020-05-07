@@ -16,7 +16,7 @@ Actions that you have to take into consideration to avoid damage and accidents.
 | The PLC board must be handled with care |
 | The PLC board must be used on a flat and stable table |
 | The PLC board must be placed or mounted in such a way that it can't fall |
-| Connect the power chord of the PLC board only with 230VAC |
+| Connect the power chord of the PLC board only with 230VAC at 50 Hz |
 | Switch the main power switch off when the board is not used |
 
 | Forbidden actions |

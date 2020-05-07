@@ -13,8 +13,6 @@ The board is equipped with
 * 400 VAC electrical power components
 * Emergency stop components
 
-**SO LETS DISCOVER THE PLC BOARD!**
-
 ## Power supply
 ### General
 The power supply of the board can be divided in 2 parts:
@@ -33,7 +31,7 @@ So what are the specifications of this differential circuit breaker?
 * The letter **C** in C16 means that a current 5 to 10 times the rated current I<sub>n</sub> is allowed during 100 ms or less
 * The I<sub>diff</sub>=30mA means that a difference between the ingoing and outgoing current (L1 & N) of 30 mA or less is allowed
 * The differential circuit breaker will cutoff power if it detects a condition that is not allowed
-* It comes with an optional launch coil at the right which will cutoff power if the emergency button is pressed in NS1 mode
+* It comes with an optional launch coil at the right which will cutoff power if the emergency button on the board is pressed in NS1 mode
 
 | Banana connection | Description |
 | :---: | :--- |
@@ -46,7 +44,7 @@ So what are the specifications of this differential circuit breaker?
 The differential circuit breaker prevents the existing of leak currents higher than 30 mA.
 
 ### 24VDC Power supply
-A **24VDC regulated power supply** is used on the board to create the control circuits by converting unregulated 230VAC to constant 24VDC even if there is a fluctuation at the 230VAC.
+A **24VDC self-regulated power supply** is used on the board to create the control circuits by converting unregulated 230VAC to constant 24VDC even if there is a fluctuation at the 230VAC.
 
 ![Power supply](../Ex01/Images/24VDC_on_board.jpg)
 
@@ -56,6 +54,9 @@ The 24VDC power supply will be activated if the main power supply is switched on
 | :---: | :--- |
 | Red | 24VDC  |
 | Blue | 0VDC |
+
+>**What is a self-regulated power supply?** <br>
+**Answer:** Voltage fluctations on the primary side will not effect the secondary, outgoing voltage.<br/>
 
 ## Ethernet switch
 An **ethernet switch** is networking hardware that connects devices on a "computer network" by using packet switching to receive and forward data to the destination device. Unlike a repeater hub a network switch forwards data only to the devices that need to receive it.
@@ -157,10 +158,10 @@ A motor circuit breaker on the board can be switched on by turning the turnkey t
 <img src="/Ex01/Images/Motor_circuit_breaker_turn_on.jpg" alt="" title="" width="350" /> <br/>
 
 >**Working with motor circuit breakers**
-* Lock a motor circuit breaker with a padlock in case of electrical maintenance
-* If the motor circuit breaker is switched off; check why and by who the circuit breaker is switched off
-* If the motor circuit breaker is tripped; check the normal function of the connected motor
-* Check if it is save to switch on the motor circuit breaker and then switch it on
+>* Lock a motor circuit breaker with a padlock in case of electrical maintenance
+>* If the motor circuit breaker is switched off; check why and by who the circuit breaker is switched off
+>* If the motor circuit breaker is tripped; check the normal function of the connected motor
+>* Check if it is save to switch on the motor circuit breaker and then switch it on
 
 ## Motor contactors
 A **contactor** is an electrically-controlled switch used for switching an electrical power circuit. A contactor is typically controlled by a circuit which has a much lower power level than the switched circuit, such as a 24VDC coil electromagnet controlling a 400VAC motor switch.

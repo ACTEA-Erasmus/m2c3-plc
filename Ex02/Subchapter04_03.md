@@ -41,31 +41,48 @@ Table_Flags
 
 <sup>1</sup> *Select an input with a switch*
 
-**Step 3 :** Activate the “*Offline view*” and start the programmation of FC_Sign1 by opening the function and add the next networks:
+**Step 3 :** Activate the “*Offline view*” and start the programmation of traffic sign 1 by opening the function and add the next networks:
 
 ```javascript
+FC_Sign1
+--------
+Title: Traffic sign 1
+---------------------
 Network 1 : Red lamp – STOP
 Network 2 : Orange lamp – WARNING
 Network 3 : Green lamp – DRIVE THROUGH
 ```
 
-**Step 4 :** Change the title of the function to “Sign 1”
-
-**Step 5 :** Program in network 2 the functionality of the orange lamp “oS1_LmpOrange_H3”.
+**Step 4 :** Program in network 2 the functionality of the orange lamp.
 
 ```javascript
+FC_Sign1
+--------
+Network 2 : Orange lamp – WARNING
+---------------------------------
 oS1_LmpOrange_H3:=(NOT(iSelEmergency_S5).mClock_1Hz)+(iSelEmergency_S5.mWarning1to2)
 ```
-**Step 6 :** Select network 2 and copy this network to FC_Sign2. Replace after copying:
+**Step 5 :** Select and copy all the networks from traffic sign 1 and paste them into the function of traffic sign 2. Rename some of the TAGs (can you see the difference?).
 
 ```javascript
-mWarning1to2 "by" mWarning2to1
-oS1_LmpOrange_H3 "by" oS2_LmpOrange_H4
+FC_Sign2
+--------
+Title: Traffic sign 1
+---------------------
+Network 1 : Red lamp – STOP
+Network 2 : Orange lamp – WARNING
+---------------------------------
+oS2_LmpOrange_H4:=(NOT(iSelEmergency_S5).mClock_1Hz)+(iSelEmergency_S5.mWarning2to1)
+
+Network 3 : Green lamp – DRIVE THROUGH
 ```
 
-**Step 7 :** Finish FC_Sign2 by adding networks, network titles and
-a block title in the same structure as FC_Sign1.
+**Step 7 :** Change the programming language of FC_Sign2 to LAD
 
-**Step 8 :** Change the programming language of FC_Sign2 to LAD
+**Step 8 :** Create a new function FC_Normal (do *__not__* call this function in %OB1)
 
-**Step 9 :** Create a new function FC_Normal (do *__not__* call this function in %OB1)
+```javascript
+FC_Normal
+---------
+Title: Normal operation
+```

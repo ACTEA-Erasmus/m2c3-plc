@@ -1,4 +1,6 @@
 # Wire color code
+The color code used with the banana chords and the didactical panel.
+
  | Color | Function | Comment |
  | :---: | :---: | :---: |
  | Red | 24 VDC | Control circuits '+' |
