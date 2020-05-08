@@ -1,66 +1,45 @@
-![](../Ex02/Images/Logo_Siemens_TIA_Portal.jpg)
+![](../Ad03/Images/Logo_Siemens_TIA_Portal.jpg)
 _____________________________________
-## PLC software
-Software code can be programmed into 'Program blocks' in 5 programming languages:
-* Function Block Diagram (FBD)
-* Ladder (LAD)
-* Sequential Function Chart (SFC)
-* Structured Text (ST)
-* Structured Control language (SCL)
+# Hardware
+Double click in the project view on "Add new device" and select the S7-1200 CPU if you want to add a PLC to your project.
 
-FBD, LAD and SFC are graphical based programming languages. This means that instructions are figures which can be connected. Each
+![Select CPU](../Ad03/Images/TIA_select_CPU.jpg)
 
-### Organization blocks [OB]
+Configure the device by double-click on “Device configuration” and selecting the CPU in the Device view. The properties can be configured in the Properties view.
 
-### Functions [FC]
-![Add function](../Ex02/Images/TIA_add_FC.jpg)
+![Open Device configuration](../Ad03/Images/TIA_Open_Device_configuration.jpg)
 
-### Function Blocks [FB]
+# Add modules to a PLC Device
+A PLC Device can be expanded with additional modules such as:
+* Digital input modules to process digital sensors
+* Digital output modules to control digital actuators
+* Analog input modules to process analog sensors
+* Analog output modules to control analog actuators
+* Industrial network modules to process communication through Profibus, ProfiNET, etc.
+* Other modules such as ..
 
-### Data Blocks [FB]
+![Add modules](../Ad03/Images/Add_modules.jpg)
 
-## PLC TAGs
-BOOL, BYTE, WORD, DWORD & LWORD
+The Siemens S7-1200 CPU is foreseen with an extra location for modules in the middle of the CPU. Additional modules for this location are called boards.
 
-## Download software
+Modules and boards can be added to a PLC device by opening the "Device configuration" and to drag a module from the catalog to the CPU.
+Allowed locations in the PLC rack are showed with a blue rectangle.
 
-![Sofware download](../Ex02/Images/TIA_SW_download.jpg)
+![Add modules](../Ad03/Images/TIA_Add_modules.jpg)
 
-## Debugging
-### Hardware
-| **Icon** | **Description**   |
-|:--------:|:------------------|
-| ![](../Ex02/Images/Icon_No_error.jpg) | No error          |
-| ![](../Ex02/Images/Icon_Maintenance_needed.jpg)| Maintenance needed |
-| ![](../Ex02/Images/Icon_Maintenance_necessary.jpg) | Maintenance necessary |
-| ![](../Ex02/Images/Icon_Error.jpg) | Error, maintenance necessary |
-| ![](../Ex02/Images/Icon_device_deactivated.jpg) | The device or module is deactivated |
-| ![](../Ex02/Images/Icon_device_not_reached.jpg) | The device or module cannot be reached |
-| ![](../Ex02/Images/Icon_device_no_iodata.jpg) | No input and/or output data available |
-| ![](../Ex02/Images/Icon_device_no_diagdata.jpg) | There is no diagnostic data available because the online and offline configurations are different |
-| ![](../Ex02/Images/Icon_device_not_compatible.jpg) | The device or module is available but is not compatible |
-| ![](../Ex02/Images/Icon_device_state_unkown.jpg) | There is a connection with the device or module but state is unknown |
-| ![](../Ex02/Images/Icon_device_diag_notallowed.jpg) | There is a connection with the device or module but diagnostic is not allowed |
-| ![](../Ex02/Images/Icon_device_hardware_fault.jpg) | Hardware fault, **can be showed in combination with other icons** |
+Each module and device can be configured in the "Properties" window of the "Device configuration" by selecting the item. Also some internal parts of a device can be configured this way.
 
-## Software
-| **Icon** | **Description**                                                   |
-|:---------:|-------------------------------------------------------------------|
-| ![](../Ex02/Images/Icon_soft_error.jpg)| Software error, **can be showed in combination with other icons** |
-| ![](../Ex02/Images/Icon_soft_diff.jpg) | There is a difference between the online and offline block        |
-| ![](../Ex02/Images/Icon_soft_online.jpg) | Block only exist in the online version                            |
-| ![](../Ex02/Images/Icon_soft_offline.jpg) | Block only exist in the offline version                           |
-| ![](../Ex02/Images/Icon_soft_ok.jpg) | The offline and online blocks are equal                           |
+For example: The ProfiNET/Ethernet port can be configured in the "Properties" window after selecting it.
 
-## Backup
-It is possible to create a backup of your project by archiving it.
-An **archive** is a TIA Portal ZIP file a can only be opened by retrieving the file.
+![Ethernet port configuration](../Ad03/Images/Config_ethernet_port.jpg)
 
-| **File type** | **Description**                                                    |
-|---------------|--------------------------------------------------------------------|
-| .ZAP15_1      | TIA Portal ZIP archive of a V15.1 project                          |
-| .ZAL15_1      | TIA Portal ZIP archive of a V15.1 library                          |
-| .AP15_1       | TIA Portal project V15.1 <sup>(1)</sup> |
-| .AL15_1       | TIA Portal library V15.1 <sup>(1)</sup> |
+**Remark**: Create a subnet if the CPU is not networked.
 
-<sup>1</sup> *!! Cannot be used as standalone file !!*
+![](../Ad03/Images/Not_networked.jpg)
+
+# Download hardware
+Each change in the "Device configuration" must be transferred to the CPU. This is done by downloading the hardware. Compile your project before a download to check on faults.
+
+A hardware download can be started from the toolbar
+
+![Hardware download](../Ad03/Images/TIA_HW_download.jpg)

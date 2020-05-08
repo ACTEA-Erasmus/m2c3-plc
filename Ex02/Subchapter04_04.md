@@ -12,16 +12,6 @@ Back to the [project scope](Ex02/Subchapter04.md).
 ## Goal 4 : Debug software
 **Step 1 :** Go online (do *__not__* download the software) and check in the “*Project tree*” the map “*Program blocks*” on *online* and *offline* differences.
 
-The next table shows the online diagnostic icons.
-
-| **Icon** | **Description**                                                   |
-|:---------:|-------------------------------------------------------------------|
-| ![](../Ex02/Images/Icon_soft_error.jpg)| Software error, **can be showed in combination with other icons** |
-| ![](../Ex02/Images/Icon_soft_diff.jpg) | There is a difference between the online and offline block        |
-| ![](../Ex02/Images/Icon_soft_online.jpg) | Block only exist in the online version                            |
-| ![](../Ex02/Images/Icon_soft_offline.jpg) | Block only exist in the offline version                           |
-| ![](../Ex02/Images/Icon_soft_ok.jpg) | The offline and online blocks are equal                           |
-
 There should be a difference between the *online* and *offline* version.
 
 **Step 2 :** Solve the software difference by:

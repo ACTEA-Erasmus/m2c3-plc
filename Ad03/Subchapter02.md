@@ -1,30 +1,26 @@
-![](../Ex02/Images/Logo_Siemens_TIA_Portal.jpg)
+![](../Ad03/Images/Logo_Siemens_TIA_Portal.jpg)
 _____________________________________
-# Starting
-TIA Portal can be started, by double-clicking its icon, in 2 views:
-- Portal view : Run through a wizard to add a device (**Default view**)
-- Project view : To program and add devices (**Preferred view**)
+# Setting the engineering station IP address
+You need a TCP/IP connection to program a SIMATIC S7-1200 controller from the PC, the programming device or a laptop.
 
-The portal view provides a task-oriented view of the tools for working on the
-project. Here, you can quickly decide what you want to do and open the tool for the task at hand. If necessary, a change to the project view takes place
-automatically for the selected task.
+It is important that the IP addresses of both devices match for the PC and
+SIMATIC S7-1200 to communicate with each other via TCP/IP.
 
-![Portal view](../Ex02/Images/TIA_Portal_View.jpg "Portal View")
+* Locate the network icon ![](../Ad03/Images/Network_icon.jpg) in the taskbar at the bottom and click on "Network settings".
 
-The project view is used for hardware configuration, programming, creation of the visualization and many other tasks.
+![](../Ad03/Images/Network_settings.jpg)
 
-By default, the project view displays the menu bar with the toolbars at the top, the project tree with all components of a project on the left and the so-called task cards with instructions and libraries, for example, on the right.
+* In the network settings window that opens, click on "Ethernet" and then on "Change adapter options".
 
-If an element (for example, the device configuration) is selected in the project tree, it is displayed in the center and can be worked on there.
 
-![Project view](../Ex02/Images/TIA_Project_View.jpg "Project View")
+![](../Ad03/Images/Select_ethernet.jpg)
 
-It is possible to switch between the 2 views by means of clicking the text "Project view" or "Portal view" at the bottom left.
+* Select the desired "Local Area Connection" that you want to use to connect to the controller and click "Properties".
 
-# Create a new Project
-A new project can be created in Portal or Project view.
+![](../Ad03/Images/Network_connections.jpg)
 
-Portal view  |  Project view
-:--:|:--:
-"Create new Project"  |  "Project" > "New..."
-![Create new TIA Project](../Ex02/Images/Create_new_project.jpg) | ![New TIA Project](../Ex02/Images/TIA_new_project.jpg)
+* Next, select "Properties" for "Internet Protocol Version 4 (TCP/IP)".
+
+![](../Ad03/Images/Ethernet_properties.jpg)
+
+* You can now use the following IP address : 192.168.0.99 with Subnet mask 255.255.255.0. Accept the settings by pushing the "OK" button.

@@ -10,7 +10,6 @@
 * Exercise 02: Siemens TIA Portal introduction
   * [Learning goals](Ex02/Subchapter01.md)
   * [Study materials](Ex02/Subchapter02.md)
-  * [Introduction into Siemens TIA Portal](Ex02/Subchapter03.md)
   * [The railroad bridge project](Ex02/Subchapter04.md)
 * Exercise 03: RealGames Factory IO introduction
   * [Learning goals](Ex03/Subchapter01.md)
@@ -43,8 +42,12 @@
   * [Electrical drawings](Ad01/Subchapter01.md)
 * Addendum 02: TAG naming convention
   * [TAG naming convention](Ad02/Subchapter01.md)
-* Addendum 03: Manuals
-  * [PLC programming in Siemens TIA Portal V15.1](Ad03/Subchapter01.md)
-  * [Working with RealGames Factory IO](Ad03/Subchapter02.md)
+* Addendum 03: Siemens TIA Portal
+  * [Introduction](Ad03/Subchapter01.md)
+  * [Setting the engineering station IP address](Ad03/Subchapter02.md)
+  * [First steps](Ad03/Subchapter03.md)
+  * [Hardware](Ad03/Subchapter04.md)
+  * [Software](Ad03/Subchapter05.md)
+  * [Debugging](Ad03/Subchapter06.md)
 * Addendum 04: Wire color code
   * [Wire color code](Ad04/Subchapter01.md)
