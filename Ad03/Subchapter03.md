@@ -5,13 +5,11 @@ TIA Portal can be started, by double-clicking its icon, in 2 views:
 - Portal view : Run through a wizard to add a device (**Default view**)
 - Project view : To program and add devices (**Preferred view**)
 
-The portal view provides a task-oriented view of the tools for working on the
-project. Here, you can quickly decide what you want to do and open the tool for the task at hand. If necessary, a change to the project view takes place
-automatically for the selected task.
+The **Portal view** provides a task-oriented view of the tools for working on the project. Here, you can quickly decide what you want to do and open the tool for the task at hand. If necessary, a change to the project view takes place automatically for the selected task.
 
 ![Portal view](../Ad03/Images/TIA_Portal_View.jpg "Portal View")
 
-The project view is used for hardware configuration, programming, creation of the visualization and many other tasks.
+The **Project view** is used for hardware configuration, programming, creation of the visualization and many other tasks.
 
 By default, the project view displays the menu bar with the toolbars at the top, the project tree with all components of a project on the left and the so-called task cards with instructions and libraries, for example, on the right.
 
@@ -29,7 +27,7 @@ Portal view  |  Project view
 "Create new Project"  |  "Project" > "New..."
 ![Create new TIA Project](../Ad03/Images/Create_new_project.jpg) | ![New TIA Project](../Ad03/Images/TIA_new_project.jpg)
 
-A project in the portal view will be created after pushing the "Create" button and opened. The menu "Start", "First steps" will open automatically.
+A project in the **Portal view** will be created after pushing the "Create" button and opened. The menu "Start", "First steps" will open automatically.
 
 ![First steps](../Ad03/Images/First_steps.jpg)
 
