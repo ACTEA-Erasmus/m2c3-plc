@@ -120,3 +120,13 @@ An **archive** is a TIA Portal ZIP file a can only be opened by retrieving the f
 | .AL15_1       | TIA Portal library V15.1 <sup>(1)</sup> |
 
 <sup>1</sup> *!! Cannot be used as standalone file !!*
+
+To archive the project, select the "Archive ..." command in the "Project" menu.
+
+![](../Ad03/Images/Archive.jpg)
+
+Confirm the prompt to save the project with "Yes".
+
+![](../Ad03/Images/Save_yes.jpg)
+
+Select a folder where you want to archive your project and save it as a "TIA Portal project archive" file type.
