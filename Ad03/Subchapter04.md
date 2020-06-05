@@ -61,6 +61,29 @@ For example: The ProfiNET/Ethernet port can be configured in the "Properties" wi
 # Download hardware
 Each change in the "Device configuration" must be transferred to the CPU. This is done by downloading the hardware. Compile your project before a download to check on faults.
 
-A hardware download can be started from the toolbar.
+A hardware download can be started from the toolbar with the download icon ![](../Ad03/Images/Download_icon.jpg) or by selecting the corresponding action in the "Download to device" menu after right clicking the CPU in the project tree. From this menu you can download:
+* Hardware and software (only changes)
+* Hardware configuration
+* Software (only changes)
+* Software (all)
 
 ![Hardware download](../Ad03/Images/TIA_HW_download.jpg)
+
+TIA Portal will ask to select the interfact the first time you download the hardware. Select the ProfiNET/Ethernet interface that is connected with the CPU of the PLC. Continue by selecting the target device and by press the load button.
+
+![](../Ad03/Images/Select_interface.jpg)
+
+>**Remark:** The list of target devices can be updated by a press on the "Start search" button. The list will show all the devices corresponding the selected filter:
+>* Show all devices - Show everything (so also for example PC's)
+>* Show only compatible devices - Show only Siemens devices
+>* Show only device with the same address - Show only the device with the address in the "Configured access nodes" field (at the top)
+
+A download of hardware requires a change to the STOP mode. This change has to been confirmed! This is done in the "Load preview" window where you change the red text to "Stop all" in the "Action" column.
+
+![](../Ad03/Images/Load_preview.jpg)
+
+>**Remark:** In a real situation a STOP will lead to a total stop of the machine or technical installation. Only do this after stopping the machine or technical installation.
+
+After a download TIA Portal will ask a confirmation to restart the PLC. Do this by selecting the "Start all" checkbox. Continue by clicking the "Finish" button.
+
+![](../Ad03/Images/Load_results.jpg)

@@ -88,13 +88,26 @@ If a particular point of use of a block is to be monitored, the call environment
 
 ![](../Ad03/Images/Call_enviroment.jpg)
 
+# Monitor and modify tags
+To monitor and modify tags, you need a watch table. This is done by double-click "Add new watch table" in the project tree.
+
+![](../Ad03/Images/Add_watch_table.jpg)
+
+Open the newly created watch table by double-clicking it. You can enter individual tags in the table by typing the tagname or by typing the absolute address. A comment line can be added by using "//" before the comment.
+
+![](../Ad03/Images/Offline_watch_table.jpg)
+
+Go online with the "Go online" button ![](../Ad03/Images/Icon_go_online.jpg) and activate the monitor function with the "Monitor" button ![](../Ad03/Images/Icon_monitor.jpg).
+
+**PICTURE ONLINE**
+
 # Online/offline comparison
 It is often important to know whether the saved data matches the data loaded
 in the controller. To compare, right-click the controller in the project tree and select "Compare", "Offline/online".
 
 ![](../Ad03/Images/Compare.jpg)
 
-The Compare editor online opens.
+The compare editor online opens.
 
 ![](../Ad03/Images/Online_offline.jpg)
 
@@ -108,7 +121,32 @@ comparison result.
 
 ![](../Ad03/Images/Online_offline_SW.jpg)
 
-## Backup
+# Restoring the factory settings
+Sometimes it is necessary to restore the factory settings
+
+>Examples :
+>* Download of a program to a CPU with a different TIA Portal version
+>* IP-address could not be assigned
+
+A restore to factory settings is accomplished by the "Online access" in the project tree where you start the "Update accessible devices" in the network card of your PC connected to the PLC.
+
+![](../Ad03/Images/Online_acces.jpg)
+
+As result all accessible devices will be showed in the project tree with there IP-address or mac-address (only when the device has no IP-address).
+Open the local tree of the PLC you whish to restore.
+
+Double click on the "Online & diagnostics" item to open the online editor.
+Select the "ProfiNET interface [X1]" menu under "Diagnostics" and click on "LED Flashes".
+
+![](../Ad03/Images/LED_Flashes.jpg)
+
+As result the diagnostic LEDs on the CPU will flash (to be sure you have selected the right PLC). Open the "Functions" menu and select "Reset factory settings".
+
+![](../Ad03/Images/Factory_reset.jpg)
+
+The reset to factory settings is started by clicking the "Reset" button (followed with confirmation). You can choose before the reset to retain or to delete the current IP-address.
+
+# Backup
 It is possible to create a backup of your project by archiving it.
 An **archive** is a TIA Portal ZIP file a can only be opened by retrieving the file.
 
@@ -120,6 +158,8 @@ An **archive** is a TIA Portal ZIP file a can only be opened by retrieving the f
 | .AL15_1       | TIA Portal library V15.1 <sup>(1)</sup> |
 
 <sup>1</sup> *!! Cannot be used as standalone file !!*
+
+> **Remark** : It is recommended to make backups and to save it on a secondary location so the project can be retrieved in case of lost.
 
 To archive the project, select the "Archive ..." command in the "Project" menu.
 
