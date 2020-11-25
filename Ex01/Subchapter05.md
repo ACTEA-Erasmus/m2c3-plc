@@ -1,5 +1,14 @@
 # How to use the board?!
 _____________________________________
+## Safety precautions
+![Warning](../Ex01/Images/Warning.jpg)
+
+Use only 230VAC voltage at the power supply terminals and 24VDC low voltage for
+the inputs and outputs. Use only recommended connecting cables for electrical
+connections between the sockets of the process. Also observe specifications
+included in the data sheets for the connected devices and all safety
+instructions!
+
 ## Using banana chords
 Actions that you have to take into consideration when using banana chords.
 

@@ -3,7 +3,15 @@ _____________________________________
 ## General
 The main goal of this exercise is to discover the installed equipment on the board and how the use the board.
 
-![PLC Board](../Ex01/Images/PLC_Board.jpg)
+![PLC Board](../Ex01/Images/ASTI_Panel.jpg)
+
+The PLC with Motor Control Training Panel is a powerful didactic tool used both
+in academic and industrial courses. Through its enhanced performance and
+usability, the PLC with Motor Control Training Panel is one of the best examples
+of productivity and innovation for device configuration and programming via the
+Totally Integrated Automation Portal software.
+
+![PLC Board](../Ex01/Images/PLC_Board_detail.jpg)
 
 The board is equipped with
 * A main power switch to cutoff the power

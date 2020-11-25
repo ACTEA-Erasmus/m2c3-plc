@@ -1,6 +1,6 @@
 # Questions
 _____________________________________
-![PLC Board](../Ex01/Images/PLC_Board.jpg)
+![PLC Board](../Ex01/Images/PLC_Board_detail.jpg)
 
 | Student tasks |
 | :--- |
