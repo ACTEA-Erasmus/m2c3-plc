@@ -43,22 +43,22 @@ At the end of this course a student is able to analyse small basic automation pr
 
 ## Content
 ***Theory classes***
--   Introduction into the world of PLC’s
--   Structure of an automated system
--   Hardware architecture of a PLC
--   Software architecture of a PLC
--   Programming a PLC
--   Debugging
--   Hands-off exercises
+-   Introduction into automated systems
+-   Introduction into Siemens TIA Portal
+-   Introduction into RealGames Factory IO
+-   TAG naming convention
+-   Basic software circuits
+-   Emergency stop circuits
+-   Working with analog IO
 
 ***Workshop***
--   Introduction into the hardware and software
--   Hands-on exercises:
-    -   Hardware configuration
-    -   Basic software instructions in different languages
-    -   Timers and counters instructions
-    -   Math, compare and conversion instructions
-    -   Debugging
+-   PLC board introduction
+-   The railroad bridge project
+-   The pusher game
+-   Basic control circuits
+-   Basic motor circuits
+-   Emergency stop circuits
+-   The sorting on weight project
 
 ## Evaluation
 ***First exam chance***

@@ -162,7 +162,7 @@ The function gives information about the function of the TAG. The next table sho
 | Cmd | Command | ... | ... |
 
 ## Suffix (option)
-The suffix is option that:
+The suffix is an option that:
 * Gives information about the SI units.
 * Gives the relationship to the electrical drawings
 
@@ -180,7 +180,8 @@ The suffix is option that:
 | Q1     | Electrical reference -Q1         |
 
 ## Examples
-Structure examples of TAGs .
+Structure examples of TAGs.
+
 | Prefix | Physical name | _     | Type name | Function     | _     | Suffix |
 | :---:  | :---:         | :---: | :---:     | :---:        | :---: | :---:  |
 | i      | CC            | _     | Btn       | Start        | _     | S1     |
@@ -194,6 +195,7 @@ Structure examples of TAGs .
 | m      |               |       | Gen       | Started      |       |        |
 
 TAGs examples with description.
+
 | Examples | Description |
 | :---: | :--- |
 | iCC_BtnStart_S1 | Start pushbutton (-S1) on the control cabinet |

@@ -1,5 +1,8 @@
 # Study materials
 _____________________________________
+## Literature
+* Addendum 3: Siemens TIA Portal
+
 ## Equipment
 >   **1** Engineering station
 >   **2** SIMATIC S7-1200 controller, e.g. CPU 1215C DC/DC/DC – firmware V4.2 or higher
