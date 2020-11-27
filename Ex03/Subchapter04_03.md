@@ -23,7 +23,7 @@ Comment       : Project The Pusher Game
 Type                          : See available CPU
 System byte                   : %MB254
 Clock memory byte             : %MB255
-Digital input start address   : %IB0
+Digital input start address   : %IB0 (DO NOT USE %IB10!)
 Output start address          : %QB0
 Analog input start address    : %IB64
 IP-address                    : 192.168.0.30

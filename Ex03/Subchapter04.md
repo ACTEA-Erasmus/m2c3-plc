@@ -6,7 +6,7 @@ _____________________________________
 -   The [second goal](Ex03/Subchapter04_02.md) is to define the Factory IO & PLC Tags
 -   The [third goal](Ex03/Subchapter04_03.md) is to create and to download the PLC hardware
 -   The [fourth goal](Ex03/Subchapter04_04.md) is to create and to download the PLC software, according IEC 61131-3
--   The [last goal](Ex03/Subchapter04_05.md) is to is to deliver a working project
+-   The [last goal](Ex03/Subchapter04_05.md) is to deliver a working project
 
 ## Scope
 Create a solution for the pusher game where a carton box is pushed around over and over until the game is stopped.

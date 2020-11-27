@@ -115,3 +115,9 @@ As an example, this tutorial shows how to use a Siemens S7-1200 PLC. However, mo
 5. Press the **Connect** button to connect to the PLC. A successful connection will be indicated by a green sign displayed next to the drivers list.
 
 ![successful connection](../Ex03/Images/sucessful_connection.png)
+
+6. Start mapping tags by dragging and dropping each one onto the intended port. To remove a tag from a port just drag it back to the list. Once you have mapped all tags, set the simulation to Run Mode and test your PLC logic.
+
+<video width="1035" height="585" autoplay="" muted="" loop="">
+  <source src="../Ex03/Images/mapping_io_points.mp4" type="video/mp4">
+</video>

@@ -15,10 +15,16 @@ Back to the [project scope](Ex03/Subchapter04.md).
 
 **Step 2 :** Test the scene manually in RUN mode by moving the box around.
 ```javascript
-Go to the RUN mode by clicking on the play button.
-
+Go to the RUN mode by clicking on the play button and activate the actuator Tags.
+Click on actuator Tags so you can force them to move.
 ```
-
 **Step 3 :** Explore the control cabinet with the first person camera
-
+```javascript
+Nothing happens when you push on the buttons. Why?
+Because there is no PLC connected that contains the software.
+```
 **Step 4 :** Test all the cameras and create your own camera positions
+```javascript
+Go to the Cameras item in the VIEW menu to create camera positions.
+Can you remove the box from the playground?
+```
