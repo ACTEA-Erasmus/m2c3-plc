@@ -8,13 +8,17 @@ _____________________________________
 -   The [fourth goal](Ex03/Subchapter04_04.md) is to create and to download the PLC software, according IEC 61131-3
 -   The [last goal](Ex03/Subchapter04_05.md) is to is to deliver a working project
 
-## Scope
-Create a solution for the pusher game where a carton box is pushed around over and over until the game is stopped.
+Back to the [project scope](Ex03/Subchapter04.md).
 
-![The Pusher Game](../Ex03/Images/The_Pusher_Game.jpg)
+## Goal 1 : recognize working principles
+**Step 1 :** Open the Real Games Factory IO scene [The Pusher Game.factoryio](./Ex03/Documents/The_Pusher_Game.factoryio)
 
-It is necessary to foreseen some advantages such as:
--  The speed of the game must be controllable by means of a turn knob
--  The game must be stopped if the speed is to high where at least one pusher is to slow
--  The number of "rounds" is showed on a display
--  The number of "rounds" must be reset to zero every time the game is started
+**Step 2 :** Test the scene manually in RUN mode by moving the box around.
+```javascript
+Go to the RUN mode by clicking on the play button.
+
+```
+
+**Step 3 :** Explore the control cabinet with the first person camera
+
+**Step 4 :** Test all the cameras and create your own camera positions

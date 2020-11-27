@@ -12,7 +12,7 @@ Back to the [project scope](Ex02/Subchapter04.md).
 ## Goal 1 : Configure the hardware
 **Step 1 :** Create a new TIA Portal project
 ```javascript
-Project name  : Task1-BasicProgramming
+Project name  : Ex02-BasicProgramming
 Author        : Your name
 Comment       : Project railroad bridge
 ```

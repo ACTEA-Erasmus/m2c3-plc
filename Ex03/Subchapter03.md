@@ -1,16 +1,17 @@
+![Factory IO](../Ex03/Images/logo_fio.png)
+_____________________________________
 # Getting started with Real Games Factory IO
-## Navigating
-This document is based on the Factory IO online manual
-- Getting started - https://docs.factoryio.com/getting-started/controlling-with-a-plc/
+This document is based on the Real Games Factory IO online manual
+- Getting started - https://docs.factoryio.com/getting-started/
 
-### Main view
+## Main view
 One of the most important skills to learn in Factory I/O is how to use cameras. Cameras are used to navigate in the 3D space and are the key to interacting with parts or building new scenes. You can use three types of cameras: **Orbit (1), Fly (2)** and **First Person (3)**.
 
 Get used to each type by testing the actions as described below. Keep in mind that each camera was designed for a specific functional purpose.
 
 ![Factory IO overview](../Ex03/Images/ui_cameras.jpg)
 
-### Orbit camera
+## Orbit camera
 The Orbit camera is the default camera and should be used when building a scene. This is the only camera that allows you to move through parts without colliding with them.
 
 It works by rotating around a point of interest (indicated by a white dot) which you define by Double Left-clicking on a part. Once the point of interest is defined, you rotate the camera around it by holding the Right Mouse Button (RMB) and dragging the mouse. New parts dragged from the Palette are created at the height defined by this point, except for parts which are typically placed on the floor, such as conveyors, stations, etc.
@@ -27,7 +28,7 @@ It works by rotating around a point of interest (indicated by a white dot) which
 | Mouse Wheel | 	Zooms the camera in and out. |
 | Backspace | 	Resets the camera to the default position and rotation. |
 
-### Fly camera
+## Fly camera
 The Fly camera is used to move freely in the 3D space. This camera collides with scene parts but is not detected by sensors.
 
 <video width="598" height="350" autoplay="" muted="" loop="">
@@ -45,7 +46,7 @@ The Fly camera is used to move freely in the 3D space. This camera collides with
 | A - Left |	Moves the camera left. |
 | D - Right |	Moves the camera right. |
 
-### First person camera
+## First person camera
 The First Person camera represents a person of 1.8m (~5.9 feet) height. It should be used when simulating a person in a virtual factory. It collides with scene parts and, by default, is not detected by sensors.
 
 <video width="598" height="350" autoplay="" muted="" loop="">
@@ -63,7 +64,7 @@ The First Person camera represents a person of 1.8m (~5.9 feet) height. It shoul
 | D |	Strafes right. |
 | Space |	Jumps. |
 
-## Opening a scene
+# Opening a scene
 To open a scene choose **Open** from the **File Menu (Ctrl + O)** and select it from the list by **Left-clicking**.
 
 ![Menu open scene](../Ex03/Images/menu_open.jpg)
@@ -72,7 +73,7 @@ Factory I/O comes with 21 Scenes, which can be accessed under the **Scenes** tab
 
 ![Included scenes](../Ex03/Images/included_scenes.jpg)
 
-## Manually controlling a scene
+# Manually controlling a scene
 Before controlling a scene with an external controller (a PLC, for instance) it's recommended to test it manually. This way you can ensure that the scene layout works as expected. But first, you need to learn what **Tags** are and how they can be used to control parts.
 
 Any part that is a sensor or actuator has at least one tag. **Tags** are made of a name and a value and can be of two different types: **Sensors Tags** and **Actuators Tags**. They can hold three different data types: Boolean for on/off values, Float for analog values (real numbers) and Integer for specific data.
@@ -86,7 +87,7 @@ Using the scene created on 3. Creating a Scene, try to transport the pallet to t
 
 ![Docked tag](../Ex03/Images/docked_tag.jpg)
 
-## Controlling with a PLC
+# Controlling with a PLC
 Now that you have created your factory it's time to control it with a PLC. But first, you should learn what I/O Drivers are and how to use them.
 
 An I/O Driver is a built-in feature of Factory I/O responsible for "talking" to an external controller. Factory I/O includes many I/O Drivers, each one for a specific technology. You select a driver in Factory I/O based on the controller you want to use. Next, you configure this driver, so it knows how to "talk" to the controller and how to read and write I/O from it.
