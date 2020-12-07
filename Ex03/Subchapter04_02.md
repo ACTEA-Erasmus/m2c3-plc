@@ -35,6 +35,7 @@ DWORD Outputs count             : 8
 **Step 3 :** Start mapping the actuators and sensors.
 ```javascript
 TIP : Drag and drop the sensors and actuators to the host.
+TIP : Do not forget to map the "Factory I/O (reset)" input
 ```
 
 **Step 4 :** Export the tags to a XML file with the export button (at the bottom right with an up arrow). The file is saved to **This pc > My Documents > Factory IO**

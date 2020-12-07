@@ -116,6 +116,7 @@ The use of the type name is only used by flags if there is a connection to a sen
 | :---      | :--- |
 | BCD       | BCD device |
 | Btn       | Button |
+| Pot       | Potentiometer |
 | Con       | Contactor |
 | Lmp       | Lamp or LED |
 | Mcb       | Motor circuit breaker |
@@ -152,6 +153,7 @@ The function gives information about the function of the TAG. The next table sho
 | Vol | Volume| Pres | Pressure |
 | Temp | Temperature | Flow | Flow |
 | Vac | Vacuum | Level | Level |
+| Spd  | Speed  |   |   |
 | TRUE | Always TRUE | FALSE | Always FALSE |
 | Box | Box | Pal | Pallet |
 | 1Hz | Frequency 1 HZ | 2Hz | Frequency 2 Hz |

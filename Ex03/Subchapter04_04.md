@@ -11,3 +11,14 @@ _____________________________________
 Back to the [project scope](Ex03/Subchapter04.md).
 
 ## Goal 4 : Create PLC software
+
+**Step 1 :** Create, rename and open a new PLC tags table
+```javascript
+PLC Tags Table  : Tag table_FIO
+```
+
+**Step 2 :** Import the tags into Siemens TIA Portal. Do this by importing ![Import Tags icon](../Ex03/Images/TAG_Table_import_icon.jpg) the XML file that was downloaded by Factory IO to **This pc > My Documents > Factory IO**.
+
+![Import Tags](../Ex03/Images/TAG_Table_import.jpg)
+
+**Step 3 :** Rename, in Siemens TIA Portal, the Tags according the Tag naming convention.
