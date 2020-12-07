@@ -73,7 +73,7 @@ The name of a PLC TAG is constructed as showed in the next table.
 The prefix gives the function of the absolute address.
 
 | Prefix | Description |
-| :--- | :--- |
+| :---: | :--- |
 | i | Input |
 | o | Output |
 | m | Memory flag |
@@ -83,7 +83,7 @@ The physical name is an abbreviation that refers to the name of that part of the
 The use of an unique number after the abbreviation is allowed.
 
 | Prefix  | Description |
-| :---    | :--- |
+| :---:    | :--- |
 | BLT     | Belt conveyor |
 | BOX     | Electrical distribution box |
 | CC      | Control cabinet |
@@ -113,8 +113,9 @@ The type name refers to the type of sensor (e.t. actuator) that is connected to 
 The use of the type name is only used by flags if there is a connection to a sensor (e.t. actuator).
 
 | Type name | Description |
-| :---      | :--- |
+| :---:     | :--- |
 | BCD       | BCD device |
+| Dis       | Display device |
 | Btn       | Button |
 | Pot       | Potentiometer |
 | Con       | Contactor |
@@ -153,8 +154,9 @@ The function gives information about the function of the TAG. The next table sho
 | Vol | Volume| Pres | Pressure |
 | Temp | Temperature | Flow | Flow |
 | Vac | Vacuum | Level | Level |
-| Spd  | Speed  |   |   |
-| TRUE | Always TRUE | FALSE | Always FALSE |
+| Spd  | Speed  |   |  |
+| TRUE | TRUE | FALSE | FALSE |
+| 1   | TRUE  | 0   | FALSE  |
 | Box | Box | Pal | Pallet |
 | 1Hz | Frequency 1 HZ | 2Hz | Frequency 2 Hz |
 | Ems | Emergency stop | Move | Move action |

@@ -11,3 +11,4 @@ _____________________________________
 Back to the [project scope](Ex03/Subchapter04.md).
 
 ## Goal 5 : Deliver a working project
+**Step 1 :** Download the PLC software and test it.
