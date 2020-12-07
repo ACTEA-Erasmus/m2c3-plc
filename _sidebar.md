@@ -26,8 +26,7 @@
 * Exercise 05: Basic motor software circuits
   * [Learning goals](Ex05/Subchapter01.md)
   * [Study materials](Ex05/Subchapter02.md)
-  * [Direct online motor starter](Ex05/Subchapter03.md)
-  * [Reversing direct online motor starter](Ex05/Subchapter04.md)
+  * [Basic motor starter circuits](Ex05/Subchapter04.md)
 * Exercise 06: Emergency stop circuits
   * [Learning goals](Ex06/Subchapter01.md)
   * [Study materials](Ex06/Subchapter02.md)
