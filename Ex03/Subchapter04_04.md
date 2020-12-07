@@ -86,7 +86,7 @@ Start circuit = Start button
 Stop circuit = NOT Stop button
 ```
 
-**Step 6 :** Program in the corresponding function [FC] the working principles of the pushers in FBD.
+**Step 6 :** Program in the corresponding function [FC_PusherX] the working principles of the pushers in FBD.
 ```javascript
 FC_Pusher1+ : mStarted AND 0.0°< mCam < 45.0° => oPSH1_VlvOut_K11
 FC_Pusher2+ : mStarted AND 90.0°< mCam < 135.0° => oPSH2_VlvOut_K21
