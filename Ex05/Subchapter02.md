@@ -3,6 +3,7 @@ _____________________________________
 ## Literature
   * Addendum 1: Electrical drawings - Direct online motor without safety relay - Pushbutton
   * Addendum 1: Electrical drawings - Direct online motor 2 directions without safety relay - Pushbutton
+  * Addendum 2: TAG naming convention
   * Addendum 3: Siemens TIA Portal
 
 ## Equipment

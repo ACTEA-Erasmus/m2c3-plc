@@ -5,8 +5,7 @@ _____________________________________
 - The [third goal](Ex05/Subchapter04_03.md) is to wire the electrical circuit for a direct reverse online motor starter
 -   The [Last goal](Ex05/Subchapter04_04.md)  is to program and test PLC software for a direct reverse online motor starter
 
-## Scope
-### DOL - Direct online motor starter
+## Scope : DOL - Direct online motor starter
 A three-phase asynchronous motor must be switched on and off using a pushbutton. The power circuit is made with a contactor. The control function must be implemented with a PLC.
 
 - The motor is turned on/off by spinning the switch %I 0.4.
@@ -14,7 +13,7 @@ A three-phase asynchronous motor must be switched on and off using a pushbutton.
 - When the motor is stopped, the red lamp is ON and the green lamp is OFF.
 - The feedback of the circuit breaker and power contactor should be used for the programming logic.
 
-### ROL - Direct reverse online motor starter
+## Scope : ROL - Direct reverse online motor starter
 A three-phase asynchronous motor must be switched on and off using buttons. The power circuit is made with contactors. The motor can rotate in both directions. The control function must be implemented with a PLC.
 
 - The direction of rotation is selected by using one of the green buttons %I 0.2 or %I 0.3.
