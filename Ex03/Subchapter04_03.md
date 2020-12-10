@@ -26,18 +26,12 @@ Clock memory byte             : %MB255
 Digital input start address   : %IB0 (DO NOT USE %IB10!)
 Output start address          : %QB0
 Analog input start address    : %IB64
+Analog output start address   : %QB80
 IP-address                    : 192.168.0.30
 IP-address subnet mask        : 255.255.255.0
 ```
 
-**Step 3 :** Add a signal board and configure it:
-```javascript
-Type                          : SB1231 1x12BIT - 6ES7 232-4HA30-0XB0
-Analog output start address   : %QB80
-Analog output signal          : Voltage
-```
-
-**Step 4 :** Add next *Functions* (FC) into PLC_1 in the LAD program language:
+**Step 3 :** Add next *Functions* (FC) into PLC_1 in the LAD program language:
 ```javascript
 FC_CC
 FC_CamController
@@ -47,7 +41,7 @@ FC_Pusher3
 FC_Pusher4
 ```
 
-**Step 5 :** Add the Functions into *Organization block* Main [OB1] in separated networks:
+**Step 4 :** Add the Functions into *Organization block* Main [OB1] in separated networks:
 ```javascript
 FC_CC into network 1
 FC_CamController into network 2
@@ -57,4 +51,4 @@ FC_Pusher3 into network 5
 FC_Pusher4 into network 6
 ```
 
-**Step 6 :** **Download the hardware** configuration into the available CPU. When the device configuration was downloaded successfully; start the download of the software into the CPU. We do this to remove any existing software in the CPU.
+**Step 5 :** **Download the hardware** configuration into the available CPU. When the device configuration was downloaded successfully; start the download of the software into the CPU. We do this to remove any existing software in the CPU.

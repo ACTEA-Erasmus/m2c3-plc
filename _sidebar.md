@@ -22,7 +22,6 @@
   * [Start-stop control circuit](Ex04/Subchapter03.md)
   * [Alarm control circuit](Ex04/Subchapter04.md)
   * [Teleruptor control circuit](Ex04/Subchapter05.md)
-  * [On-off control circuit](Ex04/Subchapter06.md)
 * Exercise 05: Basic motor software circuits
   * [Learning goals](Ex05/Subchapter01.md)
   * [Study materials](Ex05/Subchapter02.md)
