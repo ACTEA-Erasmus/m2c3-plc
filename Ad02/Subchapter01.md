@@ -149,7 +149,7 @@ The function gives information about the function of the TAG. The next table sho
 | Le | Left | Ri | Right |
 | Up | Up(ward) | Down | Down(ward) |
 | Open | Open | Close| Close|
-| Lo | Low | Hi | Hi |
+| Lo | Low | Hi | High |
 | Lim | Limit | Enb | Enable |
 | Vol | Volume| Pres | Pressure |
 | Temp | Temperature | Flow | Flow |
