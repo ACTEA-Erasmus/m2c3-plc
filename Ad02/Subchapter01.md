@@ -154,7 +154,7 @@ The function gives information about the function of the TAG. The next table sho
 | Vol | Volume| Pres | Pressure |
 | Temp | Temperature | Flow | Flow |
 | Vac | Vacuum | Level | Level |
-| Spd  | Speed  |   |  |
+| Spd  | Speed  | Telrup | Teleruptor |
 | TRUE | TRUE | FALSE | FALSE |
 | 1   | TRUE  | 0   | FALSE  |
 | Box | Box | Pal | Pallet |

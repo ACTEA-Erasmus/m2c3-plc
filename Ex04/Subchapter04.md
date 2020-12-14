@@ -75,4 +75,4 @@ Network 2 : To start and stop a motor
 
 ![Alarm circuit & motor](../Ex04/Images/alarm_mot.jpg)
 
-**Step 6 :** Download the hardware & software and test the characteristics
+**Step 6 :** Download the software and test the characteristics
