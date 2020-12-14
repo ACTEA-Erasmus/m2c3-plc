@@ -35,7 +35,7 @@
   * [Learning goals](Ex07/Subchapter01.md)
   * [Study materials](Ex07/Subchapter02.md)
   * [Introduction into analog IO](Ex07/Subchapter03.md)
-  * [The sorting on weight project](Ex07/Subchapter04.md)
+  * [The watertank project](Ex07/Subchapter04.md)
 * Addendum 01: Electrical drawings
   * [Electrical drawings](Ad01/Subchapter01.md)
 * Addendum 02: TAG naming convention
