@@ -34,7 +34,7 @@ Network 1 : Test light point H3
 **Step 3 :** Download the software and test the characteristics.
 
 <details>
-	<summary>Click here to download the TIA Portal Exercise 4 solution project</summary><!-- Empty line after this one needed, do not delete! -->
+	<summary>Click here to download the TIA Portal Exercise project solution</summary><!-- Empty line after this one needed, do not delete! -->
 
 <br>
 Download file <a href="../Ex04/Documents/Ex4_ControlCircuits.zap_15">here</a>.</p>

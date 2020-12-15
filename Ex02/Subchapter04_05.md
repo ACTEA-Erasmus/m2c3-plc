@@ -44,3 +44,11 @@ Scheme to program FC_Sign1 & FC_Sign2:
 | Sign 2        | ![](../Ex02/Images/Sign_yw_blink.jpg) | Orange light blinks <br> with a frequency <br> of 1 Hz |               |                  |
 
 **Step 2 :** Download the software to the device and test the functionality of traffic sign 1 and traffic sign 2.
+
+<details>
+	<summary>Click here to download the TIA Portal Exercise project solution</summary><!-- Empty line after this one needed, do not delete! -->
+
+<br>
+Download file <a href="../Ex07/Documents/Ex02_BasicProgramming.zap15_1">here</a>.</p>
+
+  </details><!-- Empty line after this one needed, do not delete! -->

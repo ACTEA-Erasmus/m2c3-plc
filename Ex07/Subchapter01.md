@@ -4,5 +4,4 @@ _____________________________________
 * The student can explain the analog to digital conversion of an analog output
 * The student can explain the working principle of normalization function
 * The student can explain the working principle of scale function
-* The student can program and process analog inputs
-* The sutdent can program and process analog outputs
+* The student can program and process analog inputs and/or analog outputs
