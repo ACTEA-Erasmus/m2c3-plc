@@ -15,7 +15,7 @@
   * [Learning goals](Ex03/Subchapter01.md)
   * [Study materials](Ex03/Subchapter02.md)
   * [Getting started with Real Games Factory IO](Ex03/Subchapter03.md)
-  * [The pusher game](Ex03/Subchapter04.md)
+  * [The Pusher Game](Ex03/Subchapter04.md)
 * Exercise 04: Basic control software circuits
   * [Learning goals](Ex04/Subchapter01.md)
   * [Study materials](Ex04/Subchapter02.md)

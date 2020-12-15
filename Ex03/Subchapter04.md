@@ -14,6 +14,6 @@ Create a solution for the pusher game where a carton box is pushed around over a
 
 It is necessary to foreseen some advantages such as:
 -  The speed of the game must be controllable by means of a turn knob
--  The game must be stopped if the speed is to high where at least one pusher is to slow
 -  The number of "rounds" is showed on a display
 -  The number of "rounds" must be reset to zero every time the game is started
+-  The game may not count "rounds" if the speed is to high if at least one pusher is to slow

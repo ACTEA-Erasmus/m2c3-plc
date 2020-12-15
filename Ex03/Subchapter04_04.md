@@ -2,13 +2,13 @@
 _____________________________________
 # The Pusher Game
 ## Overview
--   The [first goal](Ex03/Subchapter04_01.md) is to recognize the working principles
--   The [second goal](Ex03/Subchapter04_02.md) is to define the Factory IO & PLC Tags
--   The [third goal](Ex03/Subchapter04_03.md) is to create and to download the PLC hardware
--   The [fourth goal](Ex03/Subchapter04_04.md) is to create and to download the PLC software, according IEC 61131-3
--   The [last goal](Ex03/Subchapter04_05.md) is to is to deliver a working project
+-   The [first goal](../Ex03/Subchapter04_01.md) is to recognize the working principles
+-   The [second goal](../Ex03/Subchapter04_02.md) is to define the Factory IO & PLC Tags
+-   The [third goal](../Ex03/Subchapter04_03.md) is to create and to download the PLC hardware
+-   The [fourth goal](../Ex03/Subchapter04_04.md) is to create and to download the PLC software, according IEC 61131-3
+-   The [last goal](../Ex03/Subchapter04_05.md) is to is to deliver a working project
 
-Back to the [project scope](Ex03/Subchapter04.md).
+Back to the [project scope](../Ex03/Subchapter04.md).
 
 ## Goal 4 : Create PLC software
 
@@ -48,7 +48,7 @@ mAL_PSH3Out     BOOL	%M10.4	Alarm - Pusher 3 sensor out (+)
 mAL_PSH3In      BOOL	%M10.5	Alarm - Pusher 3 sensor in (-)
 mAL_PSH4Out     BOOL	%M10.6	Alarm - Pusher 4 sensor out (+)
 mAL_PSH4In      BOOL	%M10.7	Alarm - Pusher 4 sensor in (-)
-mPoClock_10Hz   BOOL	%M254.5
+mPoClock_5Hz    BOOL	%M254.5
 mStarted        BOOL	%M8.0	Game started
 mPoStarted      BOOL	%M8.1	Positive edge on game started
 mCam            REAL	%MD0	Virtual cam

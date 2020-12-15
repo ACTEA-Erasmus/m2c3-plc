@@ -2,16 +2,16 @@
 _____________________________________
 # The Pusher Game
 ## Overview
--   The [first goal](Ex03/Subchapter04_01.md) is to recognize the working principles
--   The [second goal](Ex03/Subchapter04_02.md) is to define the Factory IO & PLC Tags
--   The [third goal](Ex03/Subchapter04_03.md) is to create and to download the PLC hardware
--   The [fourth goal](Ex03/Subchapter04_04.md) is to create and to download the PLC software, according IEC 61131-3
--   The [last goal](Ex03/Subchapter04_05.md) is to is to deliver a working project
+-   The [first goal](../Ex03/Subchapter04_01.md) is to recognize the working principles
+-   The [second goal](../Ex03/Subchapter04_02.md) is to define the Factory IO & PLC Tags
+-   The [third goal](../Ex03/Subchapter04_03.md) is to create and to download the PLC hardware
+-   The [fourth goal](../Ex03/Subchapter04_04.md) is to create and to download the PLC software, according IEC 61131-3
+-   The [last goal](../Ex03/Subchapter04_05.md) is to is to deliver a working project
 
-Back to the [project scope](Ex03/Subchapter04.md).
+Back to the [project scope](../Ex03/Subchapter04.md).
 
 ## Goal 1 : recognize working principles
-**Step 1 :** Open the Real Games Factory IO scene [The Pusher Game.factoryio](./Ex03/Documents/The_Pusher_Game.factoryio)
+**Step 1 :** Open the Real Games Factory IO scene [The Pusher Game.factoryio](../Ex03/Documents/The_Pusher_Game.factoryio)
 
 **Step 2 :** Test the scene manually in RUN mode by moving the box around.
 ```javascript

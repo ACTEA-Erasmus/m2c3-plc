@@ -1,11 +1,11 @@
 # The watertank project
 _____________________________________
 ## Overview
--   The [first goal](Ex07/Subchapter04_01.md) is to program the AD conversion of an analog input
--   The [second goal](Ex07/Subchapter04_02.md) is to program a high level alarm control circuit
--   The [third goal](Ex07/Subchapter04_03.md) is to program start-stop control circuit
--   The [fourth goal](Ex07/Subchapter04_04.md) is to control the level
--   The [last goal](Ex07/Subchapter04_05.md) is to deliver a working project
+-   The [first goal](../Ex07/Subchapter04_01.md) is to program the AD conversion of an analog input
+-   The [second goal](../Ex07/Subchapter04_02.md) is to program a high level alarm control circuit
+-   The [third goal](../Ex07/Subchapter04_03.md) is to program start-stop control circuit
+-   The [fourth goal](../Ex07/Subchapter04_04.md) is to control the level
+-   The [last goal](../Ex07/Subchapter04_05.md) is to deliver a working project
 
 # Scope
 Automate the level in **watertank T1**. that is equipped with
