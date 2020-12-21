@@ -21,6 +21,8 @@ FBD, LAD and SFC are graphical based programming languages. This means that inst
 
 ### Function Blocks [FB]
 
+![Add Function Block](../AD03/Images/TIA_add_FB.png)
+
 ### Data Blocks [FB]
 
 ## PLC TAGs
