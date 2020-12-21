@@ -1,7 +1,10 @@
 ![](../Ex02/Images/Logo_Siemens_TIA_Portal.jpg)
 _____________________________________
+
 ## PLC software
+
 Software code can be programmed into 'Program blocks' in 5 programming languages:
+
 * Function Block Diagram (FBD)
 * Ladder (LAD)
 * Sequential Function Chart (SFC)
@@ -13,6 +16,7 @@ FBD, LAD and SFC are graphical based programming languages. This means that inst
 ### Organization blocks [OB]
 
 ### Functions [FC]
+
 ![Add function](../Ad03/Images/TIA_add_FC.jpg)
 
 ### Function Blocks [FB]
@@ -20,6 +24,7 @@ FBD, LAD and SFC are graphical based programming languages. This means that inst
 ### Data Blocks [FB]
 
 ## PLC TAGs
+
 BOOL, BYTE, WORD, DWORD & LWORD
 
 ## Download software
