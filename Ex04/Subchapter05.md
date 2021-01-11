@@ -37,6 +37,6 @@ Network 1 : Test light point H3
 	<summary>Click here to download the TIA Portal Exercise project solution</summary><!-- Empty line after this one needed, do not delete! -->
 
 <br>
-Download file <a href="../Ex04/Documents/Ex4_ControlCircuits.zap_15">here</a>.</p>
+Download file <a href="../Ex04/Documents/Ex4_ControlCircuits.zap15_1">here</a>.</p>
 
   </details><!-- Empty line after this one needed, do not delete! -->

@@ -89,3 +89,11 @@ __Motor circuit breaker__
 4) Motor is stopped
 5) Switch on the motor circuit breaker. It is not allowed that the motor restart (you must push on start)
 6) Start the motor
+
+<details>
+	<summary>Click here to download the TIA Portal Exercise project solution</summary><!-- Empty line after this one needed, do not delete! -->
+
+<br>
+Download file <a href="../Ex05/Documents/Task 1/ACTEA_Ex5.1_ap.zap15_1">here</a>.</p>
+
+  </details><!-- Empty line after this one needed, do not delete! -->

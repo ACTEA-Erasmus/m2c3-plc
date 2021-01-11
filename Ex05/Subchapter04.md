@@ -9,7 +9,7 @@ _____________________________________
 ## Scope : DOL - Direct online motor starter
 A three-phase asynchronous motor must be switched on and off using a pushbutton. The power circuit is made with a contactor. The control function must be implemented with a PLC.
 
-- The motor is turned on/off by spinning the switch %I 0.4.
+- The motor is turned on by pressing the green button %I 0.2 and is turned off by pressing the red button %I 0.0
 - When the motor is running, the green lamp %Q 0.0 is ON and the red lamp %Q 0.2 is OFF.
 - When the motor is stopped, the red lamp is ON and the green lamp is OFF.
 - The feedback of the circuit breaker and power contactor should be used for the programming logic.

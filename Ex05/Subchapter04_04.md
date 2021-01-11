@@ -27,7 +27,7 @@ FC_DOL into network 1 -> Add system bit "AlwaysFALSE" to the EN-input of FC_DOL
 ```javascript
 iCC_BtnStop_S1 - BOOL - %I 0.0 - Stop button
 iCC_BtnStartFw_S3 - BOOL - %I 0.2 - Start button forward
-iCC_BtnStartBw_S4 - BOOL - %I 0.2 - Start button Backward
+iCC_BtnStartBw_S4 - BOOL - %I 0.3 - Start button backward
 iCC_McbMot_QM1 - BOOL - %I 1.1 - Motor circuit breaker
 iCC_ConMotFw_KM1 - BOOL - %I 1.2 - Feedback signal contactor forward
 iCC_ConMotBw_KM2 - BOOL - %I 1.4 - Feedback signal contactor backward
@@ -35,9 +35,9 @@ oCC_LmpStartFw_H1 - BOOL - %Q 0.0 - Lamp start forward
 oCC_LmpStartBw_H2 - BOOL - %Q 0.1 - Lamp start backward
 oCC_LmpStop_H3 - BOOL - %Q 0.2 - Lamp stop
 oCC_ConMotFw_KM1 - BOOL - %Q 0.6 - Contactor motor forward
-oCC_ConMotBw_KM2 - BOOL - %Q 0.6 - Contactor motor backward
+oCC_ConMotBw_KM2 - BOOL - %Q 0.7 - Contactor motor backward
 mMotStartedFw - BOOL - %M 0.0 - Motor started forward
-mMotStartedBw - BOOL - %M 0.0 - Motor started backward
+mMotStartedBw - BOOL - %M 0.1 - Motor started backward
 ```
 
 **Step 5 :** Program in FC_DOR the software to start & stop the motor. Do not forget to program the lamps.
@@ -97,3 +97,11 @@ __Motor circuit breaker__
 4) Motor is stopped
 5) Switch on the motor circuit breaker. It is not allowed that the motor restart (you must push on start)
 6) Start the motor
+
+<details>
+	<summary>Click here to download the TIA Portal Exercise project solution</summary><!-- Empty line after this one needed, do not delete! -->
+
+<br>
+Download file <a href="../Ex05/Documents/Task 2/ACTEA_Ex5.2_ap.zap15_1">here</a>.</p>
+
+  </details><!-- Empty line after this one needed, do not delete! -->

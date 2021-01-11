@@ -39,7 +39,7 @@ FC_DOL_EMS into network 1
 ```javascript
 iCC_BtnStop_S1 - BOOL - %I 0.0 - Stop button
 iCC_BtnStart_S3 - BOOL - %I 0.2 - Start buttons
-iCC_RlyEms_KES - BOOL - %I 0.0 - Safety relay OK
+iCC_RlyEms_KES - BOOL - %I 1.0 - Safety relay OK
 iCC_McbMot_QM1 - BOOL - %I 1.1 - Motor circuit breaker
 iCC_ConMot_KM1 - BOOL - %I 1.2 - Feedback signal contactor
 oCC_LmpStart_H1 - BOOL - %Q 0.0 - Lamp start
@@ -47,6 +47,15 @@ oCC_LmpStop_H3 - BOOL - %Q 0.2 - Lamp stop
 oCC_ConMot_KM1 - BOOL - %Q 0.6 - Contactor motor
 mMotStarted - BOOL - %M 0.0 - Motor started
 ```
+
+<details>
+	<summary>Click here to download the Ms Excel TAG List</summary><!-- Empty line after this one needed, do not delete! -->
+
+<br>
+Download file <a href="../Ex06/Documents/Actea_Ex6_Taglist.xlsx">here</a>.</p>
+
+  </details><!-- Empty line after this one needed, do not delete! -->
+<br>
 
 **Step 6 :** Program in FC_DOL_EMS the software to start & stop the motor. Do not forget to program the lamps.
 ```javascript
@@ -84,3 +93,11 @@ __Emergency stop__
 5) Deactivate the emergency stop buttons
 6) Reset the safety relay with the black reset buttons
 7) Restart the motor
+
+<details>
+	<summary>Click here to download the TIA Portal Exercise project solution</summary><!-- Empty line after this one needed, do not delete! -->
+
+<br>
+Download file <a href="../Ex06/Documents/ACTEA_Ex6.zap15_1">here</a>.</p>
+
+  </details><!-- Empty line after this one needed, do not delete! -->
