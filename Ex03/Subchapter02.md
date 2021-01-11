@@ -14,4 +14,5 @@
 *  Presentation [Introduction & installation](../Ex03/Documents/00-factoryio-introduction-installation.pptx)
 *  Presentation [Camera introduction](../Ex03/Documents/01-factoryio-introduction-camera.pptx)
 *  Presentation [Modelling introduction](../Ex03/Documents/02-factoryio-introduction-modelling.pptx)
+*  Presentation [Quick start](../Ex03/Documents/03-factoryio-quick-start.pptx)
 *  Real Games Factory IO manual - https://docs.factoryio.com/
