@@ -7,7 +7,7 @@ ____________________________________________________________
 * Total studytime: 125 hours
 
 * EU-Partner(s): AP University College
-* TC-Partner(s):
+* TC-Partner(s): Mekelle University, Jimma University, Ardhi University, Mbarara University of Science and Technology, Muni University 
 
 ## Prerequisites
 * Participated in Electro Pneumatic Control
