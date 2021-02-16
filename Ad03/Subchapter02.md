@@ -1,7 +1,7 @@
 ![](../Ad03/Images/Logo_Siemens_TIA_Portal.jpg)
 _____________________________________
 # Setting the engineering station IP address
-You need a TCP/IP connection to program a SIMATIC S7-1200 controller from the PC, the programming device or a laptop.
+Before you can start to program a SIMATIC S7-1200 controller on a the PC, you need to setup a TCP/IP connection.
 
 It is important that the IP addresses of both devices match for the PC and
 SIMATIC S7-1200 to communicate with each other via TCP/IP.

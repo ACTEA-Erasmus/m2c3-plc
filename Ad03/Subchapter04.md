@@ -1,7 +1,7 @@
 ![](../Ad03/Images/Logo_Siemens_TIA_Portal.jpg)
 _____________________________________
 # Hardware
-Double click in the **Project view** on "Add new device" and select the S7-1200 CPU if you want to add a PLC to your project.
+Double click in the **Project view** on "Add new device" and select the S7-1200 CPU if you want to add a PLC to your project. Don't forget to check the order number on your PLC because it could be different then showed on the picture below.
 
 ![Select CPU](../Ad03/Images/TIA_select_CPU.jpg)
 

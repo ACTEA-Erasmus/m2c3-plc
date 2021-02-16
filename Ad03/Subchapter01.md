@@ -18,6 +18,10 @@ Educational institutes benefit from special conditions such as **educational lic
 
 ![Educational license](../Ad03/Images/Edu_license.jpg)
 
+Basic licenses are often provided to educational institutes as it comes with basic controller packages. These licenses are not limited in time but they are limited in functionallity.
+
+![Basic license](../Ad03/Images/Basic_license.jpg)
+
 # TIA Portal versions
 The TIA Portal platform is constantly evolving, resulting in different versions over the years. Upward compatibility from older versions is only possible according to the schedule below.
 
@@ -30,11 +34,11 @@ TIA Portal can be started by double-clicking the TIA Portal icon. A new set of i
 
 | **Icon** | **Description**   |
 |:--------:|:------------------|
-| ![Icon_TIA_V15_1](../Ad03/Images/Icon_TIA_V15_1.jpg)  | To start TIA Portal V15.1 |
-| ![Icon_TIA_Updater](../Ad03/Images/Icon_TIA_Updater.jpg)  | To start the TIA Portal updater for installing updates |
-| ![Icon_TIA_Lic_manager](../Ad03/Images/Icon_TIA_Lic_manager.jpg)  | To open the license manager |
-| ![Icon_TIA_Simulator](../Ad03/Images/Icon_TIA_Simulator.jpg) | To start the PLC simulator for S7-1200 & S7-1500 CPU’s |
-| ![Icon_TIA_Project](../Ad03/Images/Icon_TIA_Project.jpg) | A TIA Portal file |
-| ![Icon_TIA_Communications](../Ad03/Images/Icon_TIA_Communications.jpg) | To open the PC communication settings necessary for HMI simulation with a CPU where administration rights are necessary<sup>1</sup> |
+| ![Icon TIA Portal V16](../Ad03/Images/Icon_TIA_V16.jpg)  | To start TIA Portal V16 |
+| ![Icon TIA Updater](../Ad03/Images/Icon_TIA_Updater.jpg)  | To start the TIA Portal updater for installing updates |
+| ![Icon TIA License manager](../Ad03/Images/Icon_TIA_Lic_manager.jpg)  | To open the license manager |
+| ![Icon TIA Simulator](../Ad03/Images/Icon_TIA_Simulator.jpg) | To start the PLC simulator for S7-1200 & S7-1500 CPU’s |
+| ![Icon TIA Project](../Ad03/Images/Icon_TIA_Project.jpg) | A TIA Portal file |
+| ![Icon TIA Communications](../Ad03/Images/Icon_TIA_Communications.jpg) | To open the PC communication settings necessary for HMI simulation with a CPU where administration rights are necessary<sup>1</sup> |
 
 <sup> 1 Can be started from: "C:\Program Files\Common Files\Siemens\CommunicationSettings\CommunicationSettings.exe" </sup>

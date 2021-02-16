@@ -151,10 +151,10 @@ An **archive** is a TIA Portal ZIP file a can only be opened by retrieving the f
 
 | **File type** | **Description**                                                    |
 |---------------|--------------------------------------------------------------------|
-| .ZAP15_1      | TIA Portal ZIP archive of a V15.1 project                          |
-| .ZAL15_1      | TIA Portal ZIP archive of a V15.1 library                          |
-| .AP15_1       | TIA Portal project V15.1 <sup>(1)</sup> |
-| .AL15_1       | TIA Portal library V15.1 <sup>(1)</sup> |
+| .ZAP16      | TIA Portal ZIP archive of a V16 project                          |
+| .ZAL16      | TIA Portal ZIP archive of a V16 library                          |
+| .AP16       | TIA Portal project V16 <sup>(1)</sup> |
+| .AL16       | TIA Portal library V16 <sup>(1)</sup> |
 
 <sup>1</sup> *!! Cannot be used as standalone file !!*
 
