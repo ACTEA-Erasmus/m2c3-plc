@@ -1,20 +1,19 @@
 # General
-The use of a naming convention is used to increase the readability of the software.
-TAG and block names are constructed with capital and small letters where
+The use of a naming convention is used to increase the readability of the software. TAG and block names are constructed with capital and small letters where
 * The name is assembled with one or more words
 * Each word starts with a capital letter
 * Words can be reduced by the use of abbreviations
 
 # Programming blocks
 ## Structure
-The name of a programming block is constructed as showed in the next table.
+The name of a programming block is constructed with the use of ANSI/ISA S88 standard, as showed in the next table.
 
 | Block type | _     | S88 Type  | _    | Block description  |
 | :---:      | :---: |:---:      |:---: | :---               |
 
 It starts with the block type abbreviation, followed by an underscore and it finish with an S88 abbreviation and block description.
 
-The S88 type abbreviation is not used with global data blocks (DBs)
+The S88 type abbreviation is not used with global data blocks (DBs).
 
 ## Block type abbreviation
 | Block type | Description |
@@ -22,7 +21,8 @@ The S88 type abbreviation is not used with global data blocks (DBs)
 | FC | Function |
 | FB | Function block |
 | OB | Program organization unit |
-| DB | Data block |
+| DB | Global data block |
+| ID | Instance data block  |
 
 ## S88 abbreviation
 | S88 abbreviation | Description |
@@ -31,7 +31,7 @@ The S88 type abbreviation is not used with global data blocks (DBs)
 | EM | Equipment module |
 | PE | Procedure element |
 
-Notes on ISA/ANSI S88
+Notes on ANSI/ISA S88
 * A control module is a function block (FB) which processed signals from inputs or controls output signals.
 * An equipment is a function (FC) which represent a collection of physical elements that have an physical relationship.
 * A procedure element is function block (FB) that represents a strategy (GRAFCET, flowchart, PID controller, etc.).

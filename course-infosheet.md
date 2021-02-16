@@ -7,7 +7,7 @@ ____________________________________________________________
 * Total studytime: 125 hours
 
 * EU-Partner(s): AP University College
-* TC-Partner(s): Mekelle University, Jimma University, Ardhi University, Mbarara University of Science and Technology, Muni University 
+* TC-Partner(s): Mekelle University, Jimma University, Ardhi University, Mbarara University of Science and Technology, Muni University
 
 ## Prerequisites
 * Participated in Electro Pneumatic Control
@@ -15,10 +15,10 @@ ____________________________________________________________
 
 ## Study materials
 * Course
-* Software - SIEMENS TIA Portal Professional
+* Software - SIEMENS TIA Portal Professional V16
 
 ## Technical requirements / lab equipment
-* Hardware - SIEMENS S7-1200 CPU on didactical panel
+* Hardware - ASTI PLC Training panel with Siemens S7-1200 CPU
 * Hardware - SIEMENS S7-1200 download cable
 * Hardware - Banana chords
 

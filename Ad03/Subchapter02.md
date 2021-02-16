@@ -23,4 +23,4 @@ SIMATIC S7-1200 to communicate with each other via TCP/IP.
 
 ![](../Ad03/Images/Ethernet_properties.jpg)
 
-* You can now use the following IP address : 192.168.0.99 with Subnet mask 255.255.255.0. Accept the settings by pushing the "OK" button.
+* You can now use the following IP address : **192.168.0.99** with Subnet mask **255.255.255.0**. Accept the settings by pushing the "OK" button.

@@ -42,8 +42,7 @@ operating states of the CPU or communication processors (CPs).
 | ![](../Ad03/Images/NOT_SUPPORT.jpg) | The configured module does not support display of the operating state |
 
 ## Online hardware diagnostics
-The device view in online mode of the TIA Portal gives you a quick overview of
-the configuration and system status of the automation system.
+The device view in online mode of the TIA Portal gives you a quick overview of the configuration and system status of the automation system.
 
 ![](../Ad03/Images/Debug_HW_full.jpg)
 
