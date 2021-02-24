@@ -32,7 +32,7 @@ It works by rotating around a point of interest (indicated by a white dot) which
 The Fly camera is used to move freely in the 3D space. This camera collides with scene parts but is not detected by sensors.
 
 <video width="598" height="350" autoplay="" muted="" loop="">
-  <source src="Ex03/Images/fly_camera.mp4" type="video/mp4">
+  <source src="./Ex03/Images/fly_camera.mp4" type="video/mp4">
 </video>
 
 | Control | Action |
@@ -50,19 +50,19 @@ The Fly camera is used to move freely in the 3D space. This camera collides with
 The First Person camera represents a person of 1.8m (~5.9 feet) height. It should be used when simulating a person in a virtual factory. It collides with scene parts and, by default, is not detected by sensors.
 
 <video width="598" height="350" autoplay="" muted="" loop="">
-  <source src="../Ex03/Images/first_person_camera.mp4" type="video/mp4">
+  <source src="./Ex03/Images/first_person_camera.mp4" type="video/mp4">
 </video>
 
 | Control | Action |
 | :---:   | :---:  |
-| Double LMB |	Looks the camera to where the mouse cursor is pointing. |
-| RMB + Drag |Rotates the camera. |
-| LMB + RMB |	Moves forward. |
-| W |	Moves forward. |
-| S |	Moves backward.
-| A |	Strafes left. |
-| D |	Strafes right. |
-| Space |	Jumps. |
+| Double LMB |	Looks the camera to where the mouse cursor is pointing |
+| RMB + Drag |Rotates the camera |
+| LMB + RMB |	Moves forward |
+| W |	Moves forward |
+| S |	Moves backward |
+| A |	Strafes left |
+| D |	Strafes right |
+| Space |	Jumps |
 
 # Opening a scene
 To open a scene choose **Open** from the **File Menu (Ctrl + O)** and select it from the list by **Left-clicking**.
@@ -119,5 +119,5 @@ As an example, this tutorial shows how to use a Siemens S7-1200 PLC. However, mo
 6. Start mapping tags by dragging and dropping each one onto the intended port. To remove a tag from a port just drag it back to the list. Once you have mapped all tags, set the simulation to Run Mode and test your PLC logic.
 
 <video width="1035" height="585" autoplay="" muted="" loop="">
-  <source src="../Ex03/Images/mapping_io_points.mp4" type="video/mp4">
+  <source src="./Ex03/Images/mapping_io_points.mp4" type="video/mp4">
 </video>
