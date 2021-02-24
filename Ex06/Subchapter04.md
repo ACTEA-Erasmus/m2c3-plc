@@ -1,8 +1,8 @@
 # Emergency stop circuits
 _____________________________________
 ## Overview
--   The [first goal](../Ex06/Subchapter04_01.md) is to wire the electrical circuit for a direct online motor starter with safety relay logic.
--   The [second goal](../Ex06/Subchapter04_02.md)  is to program and test PLC software for a direct online motor starter with safety relay logic.
+-   The [first goal](Ex06/Subchapter04_01.md) is to wire the electrical circuit for a direct online motor starter with safety relay logic.
+-   The [second goal](Ex06/Subchapter04_02.md)  is to program and test PLC software for a direct online motor starter with safety relay logic.
 
 # Scope
 A three-phase asynchronous motor must be switched on and off using buttons. The power circuit is made with a contactor. The control function must be implemented with a PLC while also include the safety relay logic.

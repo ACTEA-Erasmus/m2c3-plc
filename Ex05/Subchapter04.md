@@ -1,10 +1,10 @@
 # Basic motor software circuits
 _____________________________________
 ## Overview
--   The [first goal](../Ex05/Subchapter04_01.md) is to wire the electrical circuit for a direct online motor starter
--   The [second goal](../Ex05/Subchapter04_02.md)  is to program and test PLC software for a direct online motor starter
-- The [third goal](../Ex05/Subchapter04_03.md) is to wire the electrical circuit for a direct reverse online motor starter
--   The [Last goal](../Ex05/Subchapter04_04.md)  is to program and test PLC software for a direct reverse online motor starter
+-   The [first goal](Ex05/Subchapter04_01.md) is to wire the electrical circuit for a direct online motor starter
+-   The [second goal](Ex05/Subchapter04_02.md)  is to program and test PLC software for a direct online motor starter
+- The [third goal](Ex05/Subchapter04_03.md) is to wire the electrical circuit for a direct reverse online motor starter
+-   The [Last goal](Ex05/Subchapter04_04.md)  is to program and test PLC software for a direct reverse online motor starter
 
 ## Scope : DOL - Direct online motor starter
 A three-phase asynchronous motor must be switched on and off using a pushbutton. The power circuit is made with a contactor. The control function must be implemented with a PLC.
