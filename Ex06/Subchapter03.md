@@ -38,7 +38,8 @@ The 3SK1 safety relay monitors the emergency stop command device. When the emerg
 If the emergency stop command device is unlatched and the feedback circuit is closed, the start button can be used to switch on again.
 
 **Safety-related components**
-| Emergency stop command device  | Safety relay | Contactor |
+
+| Emergency stop command device | Safety relay | Contactor |
 | :---: | :---: | :---: |
 | ![](../Ex06/Images/3SU1.jpg) | ![](../Ex06/Images/3SK1.jpg) | ![](../Ex06/Images/3RT20.jpg)  |
 | 3SU1 (http://www.siemens.com/sirius-act) | 3SK1 (http://www.siemens.com/safety-relays) | 3RT20 (http://www.siemens.com/siriuscontrol) |

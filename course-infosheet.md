@@ -23,7 +23,7 @@ ____________________________________________________________
 * Software - Siemens TIA Portal V16
 * Software - Real Games - Factory IO
 
-## Learing outcomes
+## Learning outcomes
 This course starts with an introduction into the world of PLC’s and automation
 where a student learns that automation is more than programming.
 

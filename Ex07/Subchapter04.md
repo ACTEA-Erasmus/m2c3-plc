@@ -7,7 +7,7 @@ _____________________________________
 -   The [fourth goal](../Ex07/Subchapter04_04.md) is to control the level
 -   The [last goal](../Ex07/Subchapter04_05.md) is to deliver a working project
 
-# Scope
+## Scope
 Automate the level in **watertank T1**. that is equipped with
 - An analog level sensor
 - An analog flow sensor on the outlet
