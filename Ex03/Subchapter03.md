@@ -17,7 +17,7 @@ The Orbit camera is the default camera and should be used when building a scene.
 It works by rotating around a point of interest (indicated by a white dot) which you define by Double Left-clicking on a part. Once the point of interest is defined, you rotate the camera around it by holding the Right Mouse Button (RMB) and dragging the mouse. New parts dragged from the Palette are created at the height defined by this point, except for parts which are typically placed on the floor, such as conveyors, stations, etc.
 
 <video width="598" height="350" autoplay="" muted="" loop="">
-  <source src="../Ex03/Images/orbit_camera.mp4" type="video/mp4">
+  <source src="./Ex03/Images/orbit_camera.mp4" type="video/mp4">
 </video>
 
 | Control | Action |
