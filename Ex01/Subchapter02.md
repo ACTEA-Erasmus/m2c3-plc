@@ -10,4 +10,4 @@ Remark:It is advisable to print the Questions subchapter
 * The didactic PLC board
 
 ## Additional literature
-*  Interactive PDF document [Interactive board](../Ex01/Documents/InteractiveBoardV1.pdf) to be viewed in Acrobat Reader DC or Microsoft Edge.
+*  Interactive PDF document [Interactive board](./Ex01/Documents/InteractiveBoardV1.pdf) to be viewed in Acrobat Reader DC or Microsoft Edge.
