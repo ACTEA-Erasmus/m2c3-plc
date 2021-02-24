@@ -52,7 +52,7 @@ mMotStarted - BOOL - %M 0.0 - Motor started
 	<summary>Click here to download the Ms Excel TAG List</summary><!-- Empty line after this one needed, do not delete! -->
 
 <br>
-Download file <a href="../Ex06/Documents/Actea_Ex6_Taglist.xlsx">here</a>.</p>
+Download file <a href="./Ex06/Documents/Actea_Ex6_Taglist.xlsx">here</a>.</p>
 
   </details><!-- Empty line after this one needed, do not delete! -->
 <br>
@@ -98,6 +98,6 @@ __Emergency stop__
 	<summary>Click here to download the TIA Portal Exercise project solution</summary><!-- Empty line after this one needed, do not delete! -->
 
 <br>
-Download file <a href="../Ex06/Documents/ACTEA_Ex6.zap15_1">here</a>.</p>
+Download file <a href="./Ex06/Documents/ACTEA_Ex6.zap15_1">here</a>.</p>
 
   </details><!-- Empty line after this one needed, do not delete! -->
