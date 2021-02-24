@@ -32,7 +32,7 @@ It works by rotating around a point of interest (indicated by a white dot) which
 The Fly camera is used to move freely in the 3D space. This camera collides with scene parts but is not detected by sensors.
 
 <video width="598" height="350" autoplay="" muted="" loop="">
-  <source src="../Ex03/Images/fly_camera.mp4" type="video/mp4">
+  <source src="Ex03/Images/fly_camera.mp4" type="video/mp4">
 </video>
 
 | Control | Action |
