@@ -9,13 +9,10 @@ _____________________________________
 Back to the [project scope](Ex07/Subchapter04.md).
 
 ## Goal 5 : Deliver a working project
-**Step 1 :** Compile the hardware with a rebuild all command
-
-**Step 2 :** Compile the software with a rebuild all command
-
-**Step 3 :** Download hardware and software to the PLC_1
-
-**Step 4 :** Test the Project
+- **Step 1 :** Compile the hardware with a rebuild all command
+- **Step 2 :** Compile the software with a rebuild all command
+- **Step 3 :** Download hardware and software to the PLC_1
+- **Step 4 :** Test the Project
 
 __Normal functionallity__
 1. Start the watertank installation
