@@ -25,16 +25,16 @@ PLC Tags Table  : Tag table_FIO
 ```javascript
 //Inputs
 iPSH1_SenOut_S11        BOOL	%I0.0	Pusher 1 - Sensor pusher out
-iPSH1_SenIn_S12	        BOOL	%I0.1	Pusher 1 - Sensor pusher in
-iPSH2_SenOut_S21      	BOOL	%I0.2	Pusher 2 - Sensor pusher out
-iPSH2_SenIn_S22	        BOOL	%I0.3	Pusher 2 - Sensor pusher in
-iPSH3_SenOut_S31      	BOOL	%I0.4	Pusher 3 - Sensor pusher out
-iPSH3_SenIn_S32	        BOOL	%I0.5	Pusher 3 - Sensor pusher in
+iPSH1_SenIn_S12         BOOL	%I0.1	Pusher 1 - Sensor pusher in
+iPSH2_SenOut_S21        BOOL	%I0.2	Pusher 2 - Sensor pusher out
+iPSH2_SenIn_S22         BOOL	%I0.3	Pusher 2 - Sensor pusher in
+iPSH3_SenOut_S31        BOOL	%I0.4	Pusher 3 - Sensor pusher out
+iPSH3_SenIn_S32         BOOL	%I0.5	Pusher 3 - Sensor pusher in
 iPSH4_SenOut_S41        BOOL	%I0.6	Pusher 4 - Sensor pusher out
-iPSH4_SenIn_S42	        BOOL	%I0.7	Pusher 4 - Sensor pusher in
-iCC_BtnStart_S1	        BOOL	%I1.0	Button on control cabinet - Start
-iCC_BtnStop_S2	        BOOL	%I1.1	Button on control cabinet - Stop
-iCC_BtnReset_S3	        BOOL	%I1.2	Button on control cabinet - Reset
+iPSH4_SenIn_S42         BOOL	%I0.7	Pusher 4 - Sensor pusher in
+iCC_BtnStart_S1         BOOL	%I1.0	Button on control cabinet - Start
+iCC_BtnStop_S2          BOOL	%I1.1	Button on control cabinet - Stop
+iCC_BtnReset_S3         BOOL	%I1.2	Button on control cabinet - Reset
 iFIO_BtnReset           BOOL	%I1.7	Reset scene from Factory IO
 iPSH4_PV                REAL	%ID100	Pusher 4 - Process value
 iCC_PotSpd_R1           REAL	%ID104	Pot. meter on control cabinet - Speed control
