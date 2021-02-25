@@ -49,6 +49,6 @@ Scheme to program FC_Sign1 & FC_Sign2:
 	<summary>Click here to download the TIA Portal Exercise project solution</summary><!-- Empty line after this one needed, do not delete! -->
 
 <br>
-Download file <a href="./Ex07/Documents/Ex02_BasicProgramming.zap15_1">here</a>.</p>
+Download file <a href="./Ex02/Documents/Ex02_BasicProgramming.zap15_1">here</a>.</p>
 
   </details><!-- Empty line after this one needed, do not delete! -->

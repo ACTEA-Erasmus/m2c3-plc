@@ -69,11 +69,11 @@ The 24VDC power supply will be activated if the main power supply is switched on
 ## Ethernet switch
 An **ethernet switch** is networking hardware that connects devices on a "computer network" by using packet switching to receive and forward data to the destination device. Unlike a repeater hub a network switch forwards data only to the devices that need to receive it.
 
-<img src="../Ex01/Images/Switch_on_board.jpg" alt="" title="" width="120" /> <br/>
+<img src="/Ex01/Images/Switch_on_board.jpg" alt="" title="" width="120" /> <br/>
 
 **Networking cables** are networking hardware used to connect one network device to other network devices. The cables foreseen with the board are shielded twisted-pair ethernet cables with RJ45 connectors.
 
-<img src="../Ex01/Images/ProfiNET_cable.png" alt="" title="" width="250" /> <br/>
+<img src="/Ex01/Images/ProfiNET_cable.png" alt="" title="" width="250" /> <br/>
 
 ## Compact Siemens CPU
 The modular Siemens S7-1200 controller is a **compact CPU** with integrated IO and communication interfaces that meet the highest industry requirements and a range of powerful integrated technological functions make this controller an integral part of a comprehensive automation solution.
