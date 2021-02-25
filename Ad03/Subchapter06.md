@@ -97,8 +97,6 @@ Open the newly created watch table by double-clicking it. You can enter individu
 
 Go online with the "Go online" button ![](../Ad03/Images/Icon_go_online.jpg) and activate the monitor function with the "Monitor" button ![](../Ad03/Images/Icon_monitor.jpg).
 
-**PICTURE ONLINE**
-
 # Online/offline comparison
 It is often important to know whether the saved data matches the data loaded
 in the controller. To compare, right-click the controller in the project tree and select "Compare", "Offline/online".
@@ -136,7 +134,7 @@ Open the local tree of the PLC you whish to restore.
 Double click on the "Online & diagnostics" item to open the online editor.
 Select the "ProfiNET interface [X1]" menu under "Diagnostics" and click on "LED Flashes".
 
-![](../Ad03/Images/LED_Flashes.jpg)
+![](../Ad03/Images/LED_flashes.jpg)
 
 As result the diagnostic LEDs on the CPU will flash (to be sure you have selected the right PLC). Open the "Functions" menu and select "Reset factory settings".
 
