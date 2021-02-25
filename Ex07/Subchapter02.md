@@ -13,6 +13,6 @@ _____________________________________
 
 ## Additional literature
 
-<p> <img src="../Ex07/images/sce_031_500_analog_values_s7_1200_r1709_en.jpg" width="700px"/>
+<p> <img src="/Ex07/images/sce_031_500_analog_values_s7_1200_r1709_en.jpg" width="700px"/>
 
 Siemens manual analog values for S7-1200. Please download the whole PDF file <a href="./Ex07/Documents/sce_031_500_analog_values_s7_1200_r1709_en.pdf">here</a> in order to view it.</p>
