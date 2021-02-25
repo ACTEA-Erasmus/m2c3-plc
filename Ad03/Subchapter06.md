@@ -28,11 +28,10 @@ The orange project tree bar indicates that the connection is established and are
 
 
 **Operating state symbols for CPUs and CPs**
-The graphical representation and device information window show the various
-operating states of the CPU or communication processors (CPs).
+The graphical representation and device information window show the various operating states of the CPU or communication processors (CPs).
 
-**Icon** | **Description**   |
-|:--------:|:------------------|
+| **Icon** | **Description**   |
+|:--------:|:------------------ |
 | ![](../Ad03/Images/Run.jpg) | RUN          |
 | ![](../Ad03/Images/STOP.jpg)| STOP |
 | ![](../Ad03/Images/STARTUP.jpg) | STARTUP |

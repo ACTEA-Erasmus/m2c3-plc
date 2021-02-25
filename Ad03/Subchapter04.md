@@ -17,7 +17,7 @@ The TIA Portal project view contains different items. They can be switched on or
 5. Inspector window
 6. Task card
 
-![](../Ad03/Images/TIA_overview.jpg)
+![TIA Overview](../Ad03/Images/TIA_overview.jpg)
 
 The editor area contains the opened editors. The organization of these windows can be controlled by the "Window" menu in the menu bar.
 The contents of the inspector window and task card depends on the selected item(s) in the Editor window.

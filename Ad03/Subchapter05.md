@@ -52,11 +52,11 @@ Notice that that Main block OB1 always available is; it comes with the creation 
 
 Blocks can be added from the TIA Portal project tree with the command "Add new block".
 
-![Add new block](../Ad03/Images/add_new_block.jpg)
+![Add new block](../Ad03/Images/Add_new_block.jpg)
 
 A popup screen will be showed by doubleclicking on "Add new block". In this screen it is possible to select a type of programming block and the programming language. The block will be generated the moment the OK button is pushed. Afterwards it is not possible the change the programming language except for LAD & FDB.
 
-![Add new block](../Ad03/Images/add_new_block_ob.jpg)
+![Add new block](../Ad03/Images/Add_new_block_ob.jpg)
 
 A programming block can be opened by doubleclicking on it in the project tree. The programming interface depends on the programming Language:
 * Networks are showed for graphical programming languages
@@ -130,7 +130,7 @@ A PLC Tag is defined by a data type and is used to combine programming instructi
 - An direct address
 - An symbolic address
 
-### Direct address
+### Direct addresS
 A direct address always contains:
 - % sign
 - Operand
