@@ -62,7 +62,7 @@ Used Tags in this chapter:
 
 **Step 3 :** The following electrical digital output connections, the ones noted with a green star should be done.
 
-![DOR outputs](../Ex04/Images/DOR_outputs.jpg)
+![DOL outputs](../Ex04/Images/DOL_outputs.jpg)
 
 **Step 4 :** Let the electrical circuits checked by a teacher. **Only the teacher shall switch on the power!**
 
