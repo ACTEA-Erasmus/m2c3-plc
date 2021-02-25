@@ -10,9 +10,7 @@ Back to the [project scope](Ex05/Subchapter04.md).
 ## Goal 3 : Wire the electrical circuit for a direct reverse online motor starter
 **Step 1 :** The following electrical digital input connections, the ones noted with a green star should be done.
 
-**For safety reasons, electrical connections must be made with safety leads while the power is switched off!**
-
-**Students are not allowed to switch on the power!**
+**For safety reasons, electrical connections must be made with safety leads while the power is switched off! Students are not allowed to switch on the power!**
 
 ![DOR inputs](../Ex05/Images/DOR_inputs.jpg)
 

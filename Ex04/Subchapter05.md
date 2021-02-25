@@ -21,7 +21,7 @@ Used Tags in this chapter:
 
 ![Teleruptor circuit](../Ex04/Images/teleruptor.jpg)
 
-# Goal : Programming & testing a teleruptor control circuit
+## Goal : Programming & testing a teleruptor control circuit
 **Step 1 :** Create the next network in FC_Teleruptor
 ```javascript
 Network 1 : Test light point H3
