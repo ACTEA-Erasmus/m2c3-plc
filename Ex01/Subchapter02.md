@@ -7,7 +7,8 @@ _____________________________________
 Remark:It is advisable to print the Questions subchapter
 
 ## Equipment
-* The didactic PLC board
+* The didactic ASTI board
 
 ## Additional literature
-*  Interactive PDF document [Interactive board](./Ex01/Documents/InteractiveBoardV1.pdf) to be viewed in Acrobat Reader DC or Microsoft Edge.
+*  [Interactive PDF document of the board](./Ex01/Documents/InteractiveBoardV1.pdf) to be viewed in Acrobat Reader DC or Microsoft Edge.
+*  [ASTI Automation user manual](./Ex01/Documents/ASTI_User_Manual.pdf) to be viewed in Acrobat Reader DC or Microsoft Edge.
