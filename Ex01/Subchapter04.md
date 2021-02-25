@@ -48,7 +48,7 @@ So what are the specifications of this differential circuit breaker?
 
 >**Where is that leak current difference going to?** <br>
 **Answer:** To the earth and it can go through humans which can cause significant injuries or even dead if no protective device is installed.<br/>
-<img src="/Ex01/Images/Electric_hazard.png" alt="" title="" width="80" /> <br/>
+<img src="../Ex01/Images/Electric_hazard.png" alt="" title="" width="80" /> <br/>
 The differential circuit breaker prevents the existing of leak currents higher than 30 mA.
 
 ### 24VDC Power supply
@@ -69,18 +69,18 @@ The 24VDC power supply will be activated if the main power supply is switched on
 ## Ethernet switch
 An **ethernet switch** is networking hardware that connects devices on a "computer network" by using packet switching to receive and forward data to the destination device. Unlike a repeater hub a network switch forwards data only to the devices that need to receive it.
 
-<img src="/Ex01/Images/Switch_on_board.jpg" alt="" title="" width="120" /> <br/>
+![Switch](../Ex01/Images/Switch_on_board.jpg)
 
 **Networking cables** are networking hardware used to connect one network device to other network devices. The cables foreseen with the board are shielded twisted-pair ethernet cables with RJ45 connectors.
 
-<img src="/Ex01/Images/ProfiNET_cable.png" alt="" title="" width="250" /> <br/>
+![ProfiNET Cable](../Ex01/Images/ProfiNET_cable.png)
 
 ## Compact Siemens CPU
 The modular Siemens S7-1200 controller is a **compact CPU** with integrated IO and communication interfaces that meet the highest industry requirements and a range of powerful integrated technological functions make this controller an integral part of a comprehensive automation solution.
 
 The SIMATIC S7-1215C controller, installed on the board, has 14 24VDC digital inputs, 10 24VDC digital outputs, 2 [0..10V] analog inputs, 2 [0..20mA] analog outputs and 2 ethernet ports.
 
-<img src="../Ex01/Images/CPU_on_board.jpg" alt="" title="" width="350" /> <br/>
+![Compact CPU](../Ex01/Images/CPU_on_board.jpg)
 
 The state of the digital inputs and outputs can be monitored on the CPU by LEDs. The LED will be green if a digital signal is TRUE.
 
@@ -99,11 +99,11 @@ The board is foreseen with multiple interfaces which make it possible to operate
 
 The collection of these interfaces such as buttons, selector switches, lamps, potentiometer, etc. are called HMI (**Human Machine Interface**). This can be extended with a programmable display which is called an HMI-display.
 
-<img src="../Ex01/Images/Siemens_HMI.jpg" alt="" title="" width="450" /> <br/>
+![Siemens HMI](../Ex01/Images/Siemens_HMI.jpg)
 
 A selection of buttons, selector switches, potentiometer, lamps, etc. is foreseen on the board. You find them in the middle of the board.
 
-<img src="../Ex01/Images/HMI_on_board.jpg" alt="" title="" width="250" /> <br/>
+![HMI elements](../Ex01/Images/HMI_on_board.jpg)
 
 | Element | Description |
 | :---: | :--- |
@@ -134,7 +134,7 @@ The **safety relay**, the safety banana connectors, the **emergency button** and
 | NS1 | Safety relay OFF; the main switch will cut off power if the emergency button is pressed  |
 | VR | Safety relay ON; the safety relay will cut off power if the emergency button is pressed (requires additional banana connections) |
 
-<img src="../Ex01/Images/Safety_relay_on_board.jpg" alt="" title="" width="280" /> <br/>
+![Safety components](../Ex01/Images/Safety_relay_on_board.jpg)
 
 | Banana connection | Description |
 | :---: | :--- |
@@ -154,7 +154,7 @@ A motor circuit breaker is an automatically operated electrical switch designed 
 
 The **motor circuit breakers** can be found at the top right of the board. Each motor circuit breaker on the board is extended with an auxiliary switch that contains 2 contacts (33-34 / 41-42).
 
-<img src="../Ex01/Images/Motor_circuit_breakers_on_board.jpg" alt="" title="" width="350" /> <br/>
+![Motor circuit breakers](../Ex01/Images/Motor_circuit_breakers_on_board.jpg)
 
 | Banana connection | Description |
 | :---: | :--- |
@@ -163,7 +163,7 @@ The **motor circuit breakers** can be found at the top right of the board. Each 
 
 A motor circuit breaker on the board can be switched on by turning the turnkey to the state '**I** ON'. Turn the turnkey to the state '**O** OFF' to switch off a motor circuit breaker. In case of malfunction, short circuit or overload, the turnkey will be in the state 'TRIPPED'.
 
-<img src="../Ex01/Images/Motor_circuit_breaker_turn_on.jpg" alt="" title="" width="350" /> <br/>
+![Motor circuit breaker turn on](../Ex01/Images/Motor_circuit_breaker_turn_on.jpg)
 
 >**Working with motor circuit breakers**
 >* Lock a motor circuit breaker with a padlock in case of electrical maintenance
@@ -175,7 +175,7 @@ A motor circuit breaker on the board can be switched on by turning the turnkey t
 A **contactor** is an electrically-controlled switch used for switching an electrical power circuit. A contactor is typically controlled by a circuit which has a much lower power level than the switched circuit, such as a 24VDC coil electromagnet controlling a 400VAC motor switch.
 Unlike relays, contactors are designed to be directly connected to high-current load devices.
 
-<img src="../Ex01/Images/Contactors_on_board.jpg" alt="" title="" width="350" /> <br/>
+![Contactors](../Ex01/Images/Contactors_on_board.jpg)
 
 | Banana connection | Description |
 | :---: | :--- |

@@ -16,7 +16,7 @@ Remark:It is advisable to print the Questions subchapter
 
   </details><!-- Empty line after this one needed, do not delete! -->
 
-  <br>
+<br>
 
 *  ASTI Automation user manual to be viewed in Acrobat Reader DC or Microsoft Edge. Download file <a href="./Ex01/Documents/ASTI_User_Manual.pdf">here</a>.</p>
 
