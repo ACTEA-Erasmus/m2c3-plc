@@ -11,7 +11,7 @@ _____________________________________
 >   **4** Ethernet connection between engineering station and controller <br>
 >   **5** Factory IO scene **The Pusher Game.factoryio**
 <br>
-*  Factory IO scene. Download file <a href="./Ex03/Documents/The_Pusher_Game.factoryiof">here</a>.</p>
+*  Factory IO scene. Download file <a href="./Ex03/Documents/The_Pusher_Game.factoryio">here</a>.</p>
 
     </details><!-- Empty line after this one needed, do not delete! -->
 
