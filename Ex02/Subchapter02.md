@@ -1,6 +1,7 @@
 # Study materials
 _____________________________________
 ## Literature
+* Addendum 2: TAG naming convention
 * Addendum 3: Siemens TIA Portal
 
 ## Equipment

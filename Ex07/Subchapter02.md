@@ -1,6 +1,7 @@
 # Study materials
 _____________________________________
 ## Literature
+  * Subchapter "Introduction into analog IO"
   * Addendum 2: TAG naming convention
   * Addendum 3: Siemens TIA Portal
 

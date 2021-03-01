@@ -1,6 +1,7 @@
 # Study materials
 _____________________________________
 ## Literature
+  * Subchapter "Stopping in an emergency"
   * Addendum 1: Electrical drawings - Direct online motor with safety relay - Pushbutton
   * Addendum 2: TAG naming convention
   * Addendum 3: Siemens TIA Portal

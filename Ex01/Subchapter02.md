@@ -1,6 +1,8 @@
 # Study materials
 _____________________________________
 ## Literature
+* Subchapter "Introduction into automated systems"
+* Subchapter "How to use the board"
 * Addendum 1: Electrical drawings
 * Addendum 4: Wire color code
 

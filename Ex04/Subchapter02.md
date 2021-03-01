@@ -1,5 +1,8 @@
 # Study materials
 ## Literature
+*  Subchapter "Start-stop control circuit" without the Goal subchapter
+*  Subchapter "Alarm control circuit" without the Goal subchapter
+*  Subchapter "Teleruptor control circuit" without the Goal subchapter
 *  Addendum 2: TAG naming convention
 *  Addendum 3: Siemens TIA Portal
 
