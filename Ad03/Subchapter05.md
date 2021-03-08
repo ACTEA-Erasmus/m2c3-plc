@@ -119,17 +119,17 @@ A global data block can be added with the "Add new block" command from the proje
 Global data blocks store data that can be used by all other blocks. Only the associated function block should access instance data blocks. The maximum size of data blocks varies depending on the CPU.
 
 Application examples forglobal data blocks are:
-- Saving of information about a storage system. "Which product is located where?"
-- Saving  of  recipes  for  particular  products.
+- Saving of information about a storage system "Which product is located where?"
+- Saving of recipes for particular products
 
 The data in data blocks is stored retentively in most cases. This data is then retained in the event of a power failure or after a STOP/START of the CPU.
 
 ## PLC Tags
 A PLC Tag is defined by a data type and is used to combine programming instructions with other PLC Tags and/or constant values. Within TIA Portal you can define a PLC TAG with
-- An direct address
-- An symbolic address
+- A direct address
+- A symbolic address
 
-### Direct addresS
+### Direct address
 A direct address always contains:
 - % sign
 - Operand
@@ -157,8 +157,7 @@ The range determines the bit size of a PLC Tag.
 
 The unique address is create by means of a byte start address. In case of a 1 bit PLC TAG the byte number is fullfilled with a "." and a bit number between 7 to 0.
 
-![PLC Tag direct address](../Ad03/Images/tag_direct_address.jpg
-)
+![PLC Tag direct address](../Ad03/Images/tag_direct_address.jpg)
 
 Within a byte is the sequence of bits is determined where
 - Bit 8 has to heighest weight and is called the **most significant bit**
@@ -229,5 +228,8 @@ Data types are often combined in groups as showed in the next table.
 | ANY_STRING  | STRING, WSTRING |
 
 ## Download software
+Offline PLC software can be transferred to the online CPU by means of a download. Hereby it is possible to transferred
+- Only the changes
+- All the software
 
 ![Sofware download](../Ad03/Images/TIA_SW_download.jpg)
