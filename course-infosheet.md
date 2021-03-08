@@ -1,6 +1,3 @@
-
-![ACTEA_logo](/ACTEA_logo.jpg)
-
 # Basic PLC Programming - Course infosheet
 ____________________________________________________________
 * Study load: 5 credits
