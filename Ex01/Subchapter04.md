@@ -1,5 +1,6 @@
-# PLC board introduction
+![ACTEA](/Logo_ACTEA_2.png)
 _____________________________________
+# PLC board introduction
 ## General
 The main goal of this exercise is to discover the installed equipment on the board and how the use the board.
 

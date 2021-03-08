@@ -1,4 +1,4 @@
-![](../Ad03/Images/Logo_Siemens_TIA_Portal.jpg)
+![ACTEA](/Logo_ACTEA_2.png)
 _____________________________________
 # Setting the engineering station IP address
 Before you can start to program a SIMATIC S7-1200 controller on a the PC, you need to setup a TCP/IP connection.

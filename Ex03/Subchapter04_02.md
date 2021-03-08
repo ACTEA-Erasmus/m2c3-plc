@@ -1,4 +1,4 @@
-![Factory IO](../Ex03/Images/logo_fio.png)
+![ACTEA](/Logo_ACTEA_2.png)
 _____________________________________
 # The Pusher Game
 ## Overview

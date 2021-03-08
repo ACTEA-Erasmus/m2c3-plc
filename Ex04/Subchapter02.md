@@ -1,3 +1,5 @@
+![ACTEA](/Logo_ACTEA_2.png)
+_____________________________________
 # Study materials
 ## Literature
 *  Subchapter "Start-stop control circuit" without the Goal subchapter

@@ -1,5 +1,6 @@
-# The railroad bridge project
+![ACTEA](/Logo_ACTEA_2.png)
 _____________________________________
+# The railroad bridge project
 ## Overview
 -   The [first goal](Ex02/Subchapter04_01.md) is to configure and to download the hardware of a PLC device
 -   The [second goal](Ex02/Subchapter04_02.md) is to debug hardware errors

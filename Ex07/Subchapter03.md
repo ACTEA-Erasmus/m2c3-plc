@@ -1,5 +1,6 @@
-# Introduction into analog IO
+![ACTEA](/Logo_ACTEA_2.png)
 _____________________________________
+# Introduction into analog IO
 ## Analog inputs
 ### Analog conversion
 The artificial senses of a machine or installation, called **sensors**, transmit the current status of the machine or technical installation to the processing unit of the PLC via the PLC inputs.

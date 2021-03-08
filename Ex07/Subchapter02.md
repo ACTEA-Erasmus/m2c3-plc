@@ -1,5 +1,6 @@
-# Study materials
+![ACTEA](/Logo_ACTEA_2.png)
 _____________________________________
+# Study materials
 ## Literature
   * Subchapter "Introduction into analog IO"
   * Addendum 2: TAG naming convention

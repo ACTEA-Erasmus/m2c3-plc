@@ -1,5 +1,6 @@
-# Study materials
+![ACTEA](/Logo_ACTEA_2.png)
 _____________________________________
+# Study materials
 ## Literature
 * Subchapter "Introduction into automated systems"
 * Subchapter "How to use the board"

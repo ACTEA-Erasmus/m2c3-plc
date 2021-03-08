@@ -1,4 +1,4 @@
-# The Pusher Game
+![ACTEA](/Logo_ACTEA_2.png)
 _____________________________________
 ## Overview
 -   The [first goal](Ex03/Subchapter04_01.md) is to recognize the working principles

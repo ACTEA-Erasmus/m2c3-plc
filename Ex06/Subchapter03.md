@@ -1,6 +1,6 @@
-
-# Stopping in an emergency
+![ACTEA](/Logo_ACTEA_2.png)
 _____________________________________
+# Stopping in an emergency
 ## General information
 The emergency stop command device is a component that is widely used to protect people, equipment and the environment against possible hazards, and to initiate stopping in an emergency. This chapter describes applications with safety functions from precisely this application area.
 

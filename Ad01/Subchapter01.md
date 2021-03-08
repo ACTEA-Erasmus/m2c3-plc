@@ -1,3 +1,5 @@
+![ACTEA](/Logo_ACTEA_2.png)
+_____________________________________
 # Electrical drawings
 ## Direct online motor without safety relay - Pushbutton
 

@@ -1,5 +1,6 @@
-# How to use the board?!
+![ACTEA](/Logo_ACTEA_2.png)
 _____________________________________
+# How to use the board?!
 ## Safety precautions
 ![Warning](../Ex01/Images/Warning.jpg)
 

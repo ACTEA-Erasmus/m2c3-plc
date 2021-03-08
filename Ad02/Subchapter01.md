@@ -1,3 +1,5 @@
+![ACTEA](/Logo_ACTEA_2.png)
+_____________________________________
 # General
 The use of a naming convention is used to increase the readability of the software. TAG and block names are constructed with capital and small letters where
 * The name is assembled with one or more words
