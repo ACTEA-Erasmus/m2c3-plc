@@ -1,5 +1,5 @@
 
-![ACTEA](/Logo_ACTEA_2.png)
+![ACTEA Detail](/Logo_ACTEA_2.jpg)
 
 _____________________________________
 # Electrical drawings
