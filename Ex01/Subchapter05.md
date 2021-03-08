@@ -1,5 +1,5 @@
 
-![ACTEA](../Logo_ACTEA_2.png)
+![ACTEA](../Logo_ACTEA_2.jpg)
 _____________________________________
 # How to use the board?!
 ## Safety precautions

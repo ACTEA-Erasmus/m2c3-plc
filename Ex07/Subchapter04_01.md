@@ -1,5 +1,5 @@
 
-![ACTEA](../Logo_ACTEA_2.png)
+![ACTEA](../Logo_ACTEA_2.jpg)
 _____________________________________
 # The watertank project
 -   The [first goal](Ex07/Subchapter04_01.md) is to program the AD conversion of an analog input

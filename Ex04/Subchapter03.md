@@ -1,5 +1,5 @@
 
-![ACTEA](../Logo_ACTEA_2.png)
+![ACTEA](../Logo_ACTEA_2.jpg)
 _____________________________________
 # Start-stop control circuit
 A start-stop control cirucit is used to start and stop actuators. At least one start pushbutton and one stop pushbutton is integrated into the circuit to controle the output result.

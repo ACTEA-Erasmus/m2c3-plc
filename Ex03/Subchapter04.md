@@ -1,5 +1,5 @@
 
-![ACTEA](../Logo_ACTEA_2.png)
+![ACTEA](../Logo_ACTEA_2.jpg)
 _____________________________________
 ## Overview
 -   The [first goal](Ex03/Subchapter04_01.md) is to recognize the working principles
