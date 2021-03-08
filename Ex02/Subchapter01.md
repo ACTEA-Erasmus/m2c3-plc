@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Learning goals
+_____________________________________
 * The student can program basic binary instructions according IEC 61131-3
 * The student can program compare and timer instructions according IEC 61131-3
 * The student can combine basic binary, compare and timer instructions

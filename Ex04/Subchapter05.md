@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Teleruptor control circuit
+_____________________________________
 With a **teleruptor** control circuit, it is possible to switch a light point on and off by means of an impulse. To achieve this, a spring-loaded switch or a push button is used.
 - A single press on the button will activate the light point
 - A new single press on the button will deactivate the light point

@@ -1,8 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Questions
-
+_____________________________________
 ![PLC Board](../Ex01/Images/PLC_Board_detail.jpg)
 
 | Student tasks |

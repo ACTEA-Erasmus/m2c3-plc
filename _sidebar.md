@@ -30,7 +30,7 @@
   * [Learning goals](Ex06/Subchapter01.md)
   * [Study materials](Ex06/Subchapter02.md)
   * [Stopping in an emergency](Ex06/Subchapter03.md)
-  * [Two-channel emergency stop circuit](Ex06/Subchapter04.md)
+  * [Emergency stop circuit](Ex06/Subchapter04.md)
 * Exercise 07: Working with analog IO
   * [Learning goals](Ex07/Subchapter01.md)
   * [Study materials](Ex07/Subchapter02.md)
@@ -49,3 +49,5 @@
   * [Debugging](Ad03/Subchapter06.md)
 * Addendum 04: Wire color code
   * [Wire color code](Ad04/Subchapter01.md)
+
+![Erasmus](Logo_Erasmus_small.png)

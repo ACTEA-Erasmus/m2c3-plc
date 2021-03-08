@@ -1,14 +1,13 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
+# TAG naming convention
 _____________________________________
-# General
+## General
 The use of a naming convention is used to increase the readability of the software. TAG and block names are constructed with capital and small letters where
 * The name is assembled with one or more words
 * Each word starts with a capital letter
 * Words can be reduced by the use of abbreviations
 
-# Programming blocks
-## Structure
+## Programming blocks
+### Structure
 The name of a programming block is constructed with the use of ANSI/ISA S88 standard, as showed in the next table.
 
 | Block type | _     | S88 Type  | _    | Block description  |
@@ -18,7 +17,7 @@ It starts with the block type abbreviation, followed by an underscore and it fin
 
 The S88 type abbreviation is not used with global data blocks (DBs).
 
-## Block type abbreviation
+### Block type abbreviation
 | Block type | Description |
 | :---: | :--- |
 | FC | Function |
@@ -27,7 +26,7 @@ The S88 type abbreviation is not used with global data blocks (DBs).
 | DB | Global data block |
 | ID | Instance data block  |
 
-## S88 abbreviation
+### S88 abbreviation
 | S88 abbreviation | Description |
 | :---: | :--- |
 | CM | Control module |
@@ -39,7 +38,7 @@ Notes on ANSI/ISA S88
 * An equipment is a function (FC) which represent a collection of physical elements that have an physical relationship.
 * A procedure element is function block (FB) that represents a strategy (GRAFCET, flowchart, PID controller, etc.).
 
-## Examples
+### Examples
 | Block type | _     | S88 Type  | _    | Block description  |
 | :---:      | :---: | :---:     |:---: | :---               |
 | DB         | _     |           |      | Alarms             |
@@ -66,13 +65,13 @@ Notes on ANSI/ISA S88
 | FB_PE_CRNLoad   | Procedure element to load a crane |
 | FC_EM_CC        | Equipment module of the control cabinet |
 
-# PLC TAGs
-## Structure
+## PLC TAGs
+### Structure
 The name of a PLC TAG is constructed as showed in the next table.
 | Prefix | Physical name | _ | Type name | Function | _ | Suffix |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
-## Prefix
+### Prefix
 The prefix gives the function of the absolute address.
 
 | Prefix | Description |
@@ -81,7 +80,7 @@ The prefix gives the function of the absolute address.
 | o | Output |
 | m | Memory flag |
 
-## Physical names
+### Physical names
 The physical name is an abbreviation that refers to the name of that part of the installation that combines multiple physical parts.
 The use of an unique number after the abbreviation is allowed.
 
@@ -110,7 +109,7 @@ The use of an unique number after the abbreviation is allowed.
 | TR      | Transfer (roll to chain) |
 | TT      | Turntable |
 
-## Type name
+### Type name
 The type name refers to the type of sensor (e.t. actuator) that is connected to the input (e.t. output). Therefore it is always used by input & output TAGs.
 
 The use of the type name is only used by flags if there is a connection to a sensor (e.t. actuator).
@@ -134,7 +133,7 @@ The use of the type name is only used by flags if there is a connection to a sen
 | Sys       | Only in the case of system memory bits/byte |
 |           | No abbreviation with flags if there is no relation to a sensor or actuator |
 
-## Function
+### Function
 The function gives information about the function of the TAG. The next table shows different kind of options where it is allowed to combine multiple functions.
 
 | Function| Description | Function| Description |
@@ -168,7 +167,7 @@ The function gives information about the function of the TAG. The next table sho
 | LMN | Loop manipulated value | Db | Deadband |
 | Cmd | Command | ... | ... |
 
-## Suffix (option)
+### Suffix (option)
 The suffix is an option that:
 * Gives information about the SI units.
 * Gives the relationship to the electrical drawings
@@ -186,7 +185,7 @@ The suffix is an option that:
 | U1     | Electrical reference -U1         |
 | Q1     | Electrical reference -Q1         |
 
-## Examples
+### Examples
 Structure examples of TAGs.
 
 | Prefix | Physical name | _     | Type name | Function     | _     | Suffix |

@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Study materials
+_____________________________________
 ## Literature
   * Addendum 1: Electrical drawings - Direct online motor without safety relay - Pushbutton
   * Addendum 1: Electrical drawings - Direct online motor 2 directions without safety relay - Pushbutton

@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Basic motor software circuits
+_____________________________________
 -   The [first goal](Ex05/Subchapter04_01.md) is to wire the electrical circuit for a direct online motor starter
 -   The [second goal](Ex05/Subchapter04_02.md)  is to program and test PLC software for a direct online motor starter
 - The [third goal](Ex05/Subchapter04_03.md) is to wire the electrical circuit for a direct reverse online motor starter

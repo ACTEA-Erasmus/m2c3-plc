@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Wire color code
+_____________________________________
 The color code used with the banana chords and the didactical panel.
 
  | Color | Function | Comment |

@@ -1,7 +1,6 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
+# Diagnostics
 _____________________________________
-# Offline fault diagnostics
+## Offline fault diagnostics
 Faults can be caused by a variety of things. For **faults** that occur **after a changeover to RUN**, there are two error patterns. <br>
 
 1.	The **CPU** goes to or stays in the **STOP operating state**. The yellow STOP LED lights up and other indicator LEDs light up on the CPU, power supply unit, IO modules or bus modules. <br>
@@ -12,7 +11,7 @@ An interruption analysis will be performed in this case by evaluating the hardwa
 In this case, a fault may be present in the IO devices or power supply.
 A visual check will be performed initially to narrow down the fault area. The indicator LEDs on the CPU and IO devices will be evaluated. The diagnostic data of the faulty IO and bus modules will be read from the hardware diagnostics. In addition, a fault analysis can be performed using a watch table on the programming device.
 
-# Online diagnostics
+## Online diagnostics
 Online diagnostics can only be performed when the correct communication connection to the CPU has been established.
 
 To get started with the diagnostic functions, select your controller in the project and click "Go online".
@@ -41,7 +40,7 @@ The graphical representation and device information window show the various oper
 | ![](../Ad03/Images/UNKNOW.jpg) | unknown operating state |
 | ![](../Ad03/Images/NOT_SUPPORT.jpg) | The configured module does not support display of the operating state |
 
-## Online hardware diagnostics
+### Online hardware diagnostics
 The device view in online mode of the TIA Portal gives you a quick overview of the configuration and system status of the automation system.
 
 ![](../Ad03/Images/Debug_HW_full.jpg)
@@ -64,7 +63,7 @@ The graphical representation and device overview window show the operating state
 | ![](../Ad03/Images/Icon_device_diag_notallowed.jpg) | There is a connection with the device or module but diagnostic is not allowed |
 | ![](../Ad03/Images/Icon_device_hardware_fault.jpg) | Hardware fault, **can be showed in combination with other icons** |
 
-## Online diagnostics for program blocks
+### Online diagnostics for program blocks
 The project tree window of the TIA Portal in online mode gives you an overview
 of the programmed blocks of the user program. A comparison of the program blocks used offline and online is displayed with the help of diagnostic symbols.
 
@@ -87,7 +86,7 @@ If a particular point of use of a block is to be monitored, the call environment
 
 ![](../Ad03/Images/Call_enviroment.jpg)
 
-# Monitor and modify tags
+## Monitor and modify tags
 To monitor and modify tags, you need a watch table. This is done by double-click "Add new watch table" in the project tree.
 
 ![](../Ad03/Images/Add_watch_table.jpg)
@@ -98,7 +97,7 @@ Open the newly created watch table by double-clicking it. You can enter individu
 
 Go online with the "Go online" button ![](../Ad03/Images/Icon_go_online.jpg) and activate the monitor function with the "Monitor" button ![](../Ad03/Images/Icon_monitor.jpg).
 
-# Online/offline comparison
+## Online/offline comparison
 It is often important to know whether the saved data matches the data loaded
 in the controller. To compare, right-click the controller in the project tree and select "Compare", "Offline/online".
 
@@ -118,7 +117,7 @@ comparison result.
 
 ![](../Ad03/Images/Online_offline_SW.jpg)
 
-# Restoring the factory settings
+## Restoring the factory settings
 Sometimes it is necessary to restore the factory settings
 
 >Examples :
@@ -143,7 +142,7 @@ As result the diagnostic LEDs on the CPU will flash (to be sure you have selecte
 
 The reset to factory settings is started by clicking the "Reset" button (followed with confirmation). You can choose before the reset to retain or to delete the current IP-address.
 
-# Backup
+## Backup
 It is possible to create a backup of your project by archiving it.
 An **archive** is a TIA Portal ZIP file a can only be opened by retrieving the file.
 

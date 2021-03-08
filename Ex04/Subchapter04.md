@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Alarm control circuit
+_____________________________________
 An **alarm** respresent an abnormal condition or a fault in the automated system and has 2 conditions:
 - FALSE = There is no abnormal situation, the alarm is deactivated
 - TRUE = There is an abnormal situation, the alarm is activated

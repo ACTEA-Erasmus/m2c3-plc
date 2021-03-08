@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Electrical drawings
+_____________________________________
 ## Direct online motor without safety relay - Pushbutton
 
 Please download the whole PDF file <a href="./Ad01/Documents/1_DOL_1MOT_Pushbutton.pdf">here</a> in order to view it.</p>

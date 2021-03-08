@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Learning goals
+_____________________________________
 * Student can recognize hardware network components
 * Student can recognize human machine interfaces
 * Student can recognize circuit breakers & contactors

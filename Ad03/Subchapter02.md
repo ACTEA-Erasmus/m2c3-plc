@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Setting the engineering station IP address
+_____________________________________
 Before you can start to program a SIMATIC S7-1200 controller on a the PC, you need to setup a TCP/IP connection.
 
 It is important that the IP addresses of both devices match for the PC and

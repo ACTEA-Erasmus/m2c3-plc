@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Introduction into automated systems
+_____________________________________
 ## Automation
 **Automation** is the way to have tasks performed automatically by electrical appliances, machinery or technical installations.
 

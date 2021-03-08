@@ -1,7 +1,6 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Hardware
+_____________________________________
+## General
 Double click in the **Project view** on "Add new device" and select the S7-1200 CPU if you want to add a PLC to your project. Don't forget to check the order number on your PLC because it could be different then showed on the picture below.
 
 ![Select CPU](../Ad03/Images/TIA_select_CPU.jpg)
@@ -23,7 +22,7 @@ The TIA Portal project view contains different items. They can be switched on or
 The editor area contains the opened editors. The organization of these windows can be controlled by the "Window" menu in the menu bar.
 The contents of the inspector window and task card depends on the selected item(s) in the Editor window.
 
-# Add modules to a PLC Device
+## Add modules to a PLC Device
 A PLC device can be expanded with additional modules such as:
 * Digital input modules to process digital sensors
 * Digital output modules to control digital actuators
@@ -48,7 +47,7 @@ Modules and boards can be added to a PLC device by drag a module from the catalo
 
 **Remark:** The Siemens S7-1200 CPU is foreseen with an extra location for modules in the middle of the CPU. Additional modules for this location are called boards.
 
-# Configure modules
+## Configure modules
 Each module and device can be configured in the "Properties" window of the "Device configuration" by selecting the item. Also some internal parts of a device can be configured this way.
 
 For example: The ProfiNET/Ethernet port can be configured in the "Properties" window after selecting it.
@@ -59,7 +58,7 @@ For example: The ProfiNET/Ethernet port can be configured in the "Properties" wi
 
 ![](../Ad03/Images/Not_networked.jpg)
 
-# Download hardware
+## Download hardware
 Each change in the "Device configuration" must be transferred to the CPU. This is done by downloading the hardware. Compile your project before a download to check on faults.
 
 A hardware download can be started from the toolbar with the download icon ![](../Ad03/Images/Download_icon.jpg) or by selecting the corresponding action in the "Download to device" menu after right clicking the CPU in the project tree. From this menu you can download:

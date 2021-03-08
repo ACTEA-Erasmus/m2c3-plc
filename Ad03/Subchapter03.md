@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
+# First steps
 _____________________________________
-# Starting
 TIA Portal can be started, by double-clicking its icon, where the number in the icon refers to the version of TIA Portal. <br>
 
 ![Icon TIA Portal V16](../Ad03/Images/Icon_TIA_V16.jpg)

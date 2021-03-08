@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Study materials
+_____________________________________
 ## Literature
   * Subchapter "Stopping in an emergency"
   * Addendum 1: Electrical drawings - Direct online motor with safety relay - Pushbutton

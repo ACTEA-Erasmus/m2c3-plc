@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Study materials
+_____________________________________
 ## Literature
 *  Subchapter "Start-stop control circuit" without the Goal subchapter
 *  Subchapter "Alarm control circuit" without the Goal subchapter

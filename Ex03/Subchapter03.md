@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Getting started with Real Games Factory IO
+_____________________________________
 This document is based on the Real Games Factory IO online manual
 - Getting started - https://docs.factoryio.com/getting-started/
 

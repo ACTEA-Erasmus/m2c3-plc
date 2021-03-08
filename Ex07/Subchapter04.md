@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # The watertank project
+_____________________________________
 ## Overview
 -   The [first goal](Ex07/Subchapter04_01.md) is to program the AD conversion of an analog input
 -   The [second goal](Ex07/Subchapter04_02.md) is to program a high level alarm control circuit
@@ -10,7 +8,7 @@ _____________________________________
 -   The [last goal](Ex07/Subchapter04_05.md) is to deliver a working project
 
 ## Scope
-Automate the level in **watertank T1**. that is equipped with
+Automate the level in **watertank T1** that is equipped with
 - An analog level sensor
 - An analog flow sensor on the outlet
 - An analog inlet valve

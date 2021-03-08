@@ -1,14 +1,13 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Introduction
+_____________________________________
+## General
 With SIMATIC TIA Portal users configure, program, test and diagnose basic, advanced, distributed controllers and HMI panels, whether it is PLC- or PC-based, incl. software controllers. SIMATIC TIA Portal can be expand with supplements for configure, test and diagnose applications such as drives, network applications, ... .
 
 ![Hardware overview TIA Portal](../Ad03/Images/TIA_HW_Overview.jpg)
 
 SIMATIC TIA Portal is one of the core products of the TIA Portal engineering framework seamlessly integrated into one platform by using shared services as well as data.
 
-# Siemens TIA Portal licensing
+## Siemens TIA Portal licensing
 | **TIA Portal Basic** | **TIA Portal Professional** | **TIA Portal Options** |
 |:--------------------:|:---------------------------:|:----------------------:|
 | ![](../Ad03/Images/TIA_Basic.jpg) | ![](../Ad03/Images/TIA_Professional.jpg) | ![](../Ad03/Images/TIA_Options.jpg) |
@@ -23,14 +22,14 @@ Basic licenses are often provided to educational institutes as it comes with bas
 
 ![Basic license](../Ad03/Images/Basic_license.jpg)
 
-# TIA Portal versions
+## TIA Portal versions
 The TIA Portal platform is constantly evolving, resulting in different versions over the years. Upward compatibility from older versions is only possible according to the schedule below.
 
 ![TIA versions](../Ad03/Images/TIA_Versions.jpg)
 
 Downward compatibility is not supported.
 
-# TIA Portal icons
+## TIA Portal icons
 TIA Portal can be started by double-clicking the TIA Portal icon. A new set of icons come with the installation of TIA Portal.
 
 | **Icon** | **Description**   |

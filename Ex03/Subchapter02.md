@@ -1,7 +1,6 @@
 
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Study materials
+_____________________________________
 ## Literature
 *  Subchapter "Getting started with Real Games Factory IO"
 *  Addendum 2: TAG naming convention

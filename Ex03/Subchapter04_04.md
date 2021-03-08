@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # The Pusher Game
+_____________________________________
 ## Overview
 -   The [first goal](Ex03/Subchapter04_01.md) is to recognize the working principles
 -   The [second goal](Ex03/Subchapter04_02.md) is to define the Factory IO & PLC Tags
