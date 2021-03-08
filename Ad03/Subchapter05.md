@@ -1,4 +1,4 @@
-# PLC software
+# Software
 _____________________________________
 ## Programming languages
 Software can be programmed into 'Program blocks' in 5 programming languages according the international standard IEC 61131-3:
