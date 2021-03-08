@@ -1,5 +1,5 @@
 
-![ACTEA](/Logo_ACTEA_2.png)
+![ACTEA](../Logo_ACTEA_2.png)
 _____________________________________
 # Emergency stop circuits
 -   The [first goal](Ex06/Subchapter04_01.md) is to wire the electrical circuit for a direct online motor starter with safety relay logic.

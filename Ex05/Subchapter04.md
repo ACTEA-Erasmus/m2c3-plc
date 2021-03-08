@@ -1,5 +1,5 @@
 
-![ACTEA](/Logo_ACTEA_2.png)
+![ACTEA](../Logo_ACTEA_2.png)
 _____________________________________
 # Basic motor software circuits
 ## Overview

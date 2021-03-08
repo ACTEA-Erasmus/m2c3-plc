@@ -1,5 +1,5 @@
 
-![ACTEA](/Logo_ACTEA_2.png)
+![ACTEA](../Logo_ACTEA_2.png)
 _____________________________________
 # Basic motor software circuits
 -   The [first goal](Ex05/Subchapter04_01.md) is to wire the electrical circuit for a direct online motor starter

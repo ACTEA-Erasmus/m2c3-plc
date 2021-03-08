@@ -1,5 +1,5 @@
 
-![ACTEA](/Logo_ACTEA_2.png)
+![ACTEA](../Logo_ACTEA_2.png)
 _____________________________________
 # Learning goals
 * The student can recognize sensors and explain their working principle

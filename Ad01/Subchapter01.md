@@ -1,5 +1,5 @@
 
-![ACTEA](../Logo_ACTEA_2.jpg)
+![ACTEA](../Logo_ACTEA_2.png)
 _____________________________________
 # Electrical drawings
 ## Direct online motor without safety relay - Pushbutton
@@ -32,6 +32,6 @@ Please download the whole PDF file <a href="./Ad01/Documents/9_DOL_1MOT_SafetyRe
 
 ## Direct online motor with safety relay - Switch
 
-<p> <img src="../Ad01/images/07_preview_10_DOL_1MOT_SafetyRelay_Switch.jpg" width="700"/>
+<p> <img src="/Ad01/images/07_preview_10_DOL_1MOT_SafetyRelay_Switch.jpg" width="700"/>
 
 Please download the whole PDF file <a href="./Ad01/Documents/10_DOL_1MOT_SafetyRelay_Switch.pdf">here</a> in order to view it.</p>

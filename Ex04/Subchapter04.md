@@ -1,5 +1,5 @@
 
-![ACTEA](/Logo_ACTEA_2.png)
+![ACTEA](../Logo_ACTEA_2.png)
 _____________________________________
 # Alarm control circuit
 An **alarm** respresent an abnormal condition or a fault in the automated system and has 2 conditions:

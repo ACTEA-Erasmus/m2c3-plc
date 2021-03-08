@@ -1,5 +1,5 @@
 
-![ACTEA](/Logo_ACTEA_2.png)
+![ACTEA](../Logo_ACTEA_2.png)
 _____________________________________
 # Hardware
 Double click in the **Project view** on "Add new device" and select the S7-1200 CPU if you want to add a PLC to your project. Don't forget to check the order number on your PLC because it could be different then showed on the picture below.

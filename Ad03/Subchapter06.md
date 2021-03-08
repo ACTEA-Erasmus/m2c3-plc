@@ -1,5 +1,5 @@
 
-![ACTEA](/Logo_ACTEA_2.png)
+![ACTEA](../Logo_ACTEA_2.png)
 _____________________________________
 # Offline fault diagnostics
 Faults can be caused by a variety of things. For **faults** that occur **after a changeover to RUN**, there are two error patterns. <br>
